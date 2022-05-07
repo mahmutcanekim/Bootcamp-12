@@ -6,8 +6,11 @@
 **Takım Arkadaşları**
 
 -Mahmutcan Ekim: Developer
+
 -Ömer Faruk Yazıcı: Developer
+
 -Meryem Reyhan Dereköy: Scrum Master
+
 -Zeynep Elif Demirel: Product Owner
 
 
