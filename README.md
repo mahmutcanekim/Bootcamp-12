@@ -3,17 +3,17 @@
 
 **Ürün ile ilgili Bilgiler**
 
-Takım Arkadaşları
+**Takım Arkadaşları**
 -Mahmutcan Ekim: Developer
 -Ömer Faruk Yazıcı: Developer
 -Meryem Reyhan Dereköy: Scrum Master
 -Zeynep Elif Demirel: Product Owner
 
 
-**Ürün ismi **
+**Ürün ismi**
 ----refikA----
 
-**Ürün Açıklaması **
+**Ürün Açıklaması**
 
 refikA, 15-45 yaş arası, çekingenlikten veya sosyal çevre yetersizliğinden dolayı ilgi alanlarına yönelik arkadaş bulamayan bireylerin, güvenli şekilde ilgi alanlarına ve hobilerine yönelik insanlarla eşleşebildikleri ve canlı ilgi haritaları sayeysinde ilgili oldukları topluluklara katılabildileri bir ortam yaratır.
 
