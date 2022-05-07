@@ -1,6 +1,6 @@
 **Takım İsmi**
 
-     refikA
+refikA
 
 **Ürün ile ilgili Bilgiler**
 
@@ -86,12 +86,19 @@ Uygulamada “kullanıcı giriş” ekranından sonra ana sayfaya yönlendirilme
 **Sprint Retrospective:**
 
 Zaman planlamaya uyum çok başarılıydı. Daily scrum’ların zamanları belirtilen vakitlerde yapıldı ve herkese uygun saatler sabitlendi. Bu sayede günlük toplantıların saati belirlenmiş oldu.
+
 Meeting uygulamaları etkili şekilde kullanıldı. (Zoom ve Discord)
+
 Takım içindeki görevlendirmelere, ilk toplantıda herkesin güçlü ve zayıf yanlarından bahsetmesi sonucunda adil bir şekilde karar verildi. Herkes 3-4 dakikada yetkinlik ve yatkınlıklarını anlattı. Bu bilgilere göre herkes önce kendisi için uygun olduğuna inandığı rolü, sonra da diğer ekip arkadaşlarının kendilerini tanıtmalarından yola çıkarak o kişi için en uygun olarak düşündüğü rolün ne olduğunu paylaştı.
+
 UI görevini üstlenecek ekip arkdaşımız sağlık sorunu nedeniyle takımdan ayrıldıktan sonra, çevik bir şekilde hareket edilerek bir gün içinde diğer ekip üyesi UI tasarımları için ikme edildi ve kısa sürede arayüz tasarımı tamamlandı.
+
 Kişi başına düşen görev dağılımı ve yoğunluğu ilk planlanana göre değişmek zorunda kalsa da bu durum bir gün gibi kısa bir süre içinde toparlandı ve vakit kaybedilmeden süreç devam etti.
+
 Plana uygun tasarımlar başarılı ve hızlı bir şekilde koda aktarıldı.
+
 Bir sonraki sprintte; proje için güvenlik algoritmaları geliştirilmeli.
+
 Projenin “log in” sayfasında bağlantılı uygulamalar ile kullanıcı girişi sağlanmalı.
 
 **Diğer notlar:**
