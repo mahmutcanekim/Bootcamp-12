@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "386572767615",
+    "project_id": "refika-7a54b",
+    "storage_bucket": "refika-7a54b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386572767615:android:64df0ed314fd0c0851ca4a",
+        "android_client_info": {
+          "package_name": "com.example.refika_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386572767615-onc20kfake544pttg4uasm16an04u6ve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlc3yKrP-YdJIuOVlsQdYc6QDlvZlFmxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386572767615-onc20kfake544pttg4uasm16an04u6ve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
