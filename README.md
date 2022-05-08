@@ -72,30 +72,23 @@ Miro kullanılarak problem belirlendi. Problemin muhtemel ortak noktaları liste
 
 **"Daily Scrum Ekran Kayıtları"**
 
+![image](https://user-images.githubusercontent.com/104425709/167313155-fb4d3280-2c57-49b7-a0b6-12d5e1a952dd.png)
+
 
 **"Son Ürün Fotoğrafarı"**
 
-![image](https://user-images.githubusercontent.com/104425709/167313155-fb4d3280-2c57-49b7-a0b6-12d5e1a952dd.png)
 
 ![image](https://user-images.githubusercontent.com/104425709/167314027-f77ac2aa-b2fb-4680-8cae-210baaeca5d7.png)
-
 ![image](https://user-images.githubusercontent.com/104425709/167314050-67ba4517-561c-4a78-bde9-6cffa87142c1.png)
-
 ![image](https://user-images.githubusercontent.com/104425709/167314055-9e20fbac-aaf9-4568-a87e-dd3acf6cd3f1.png)
 
 ![image](https://user-images.githubusercontent.com/104425709/167314061-fdf0f05e-bf85-46bd-9eb7-fbe9f808e3e9.png)
-
 ![image](https://user-images.githubusercontent.com/104425709/167314094-2c317c07-d86b-42d7-8c39-04cad97f2c3d.png)
-
 ![image](https://user-images.githubusercontent.com/104425709/167314099-8d6d4e1f-48bf-4efe-88e6-5c71671bb2e5.png)
 
 ![image](https://user-images.githubusercontent.com/104425709/167314106-4f492bdb-5d63-4188-bb14-530d608b3950.png)
-
 ![image](https://user-images.githubusercontent.com/104425709/167314108-1c018df3-6e07-4e34-beaa-fb01e8c821d4.png)
-
 ![image](https://user-images.githubusercontent.com/104425709/167314112-d9a0c573-7ff6-40df-b8a5-67ee5de89330.png)
-
-
 
 
 
