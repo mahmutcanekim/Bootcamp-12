@@ -26,9 +26,9 @@ refikA, 15-45 yaş arası, çekingenlikten veya sosyal çevre yetersizliğinden 
 
 **Ürün Özellikleri**
 
--Amaca yönelik: diğer arkadaş̧ edinme uygulamalarından farklı olmalı ama flört amacı gütmeden, insanların güvenli, yarı gizli bir şekilde iletişim kurmasını sağlamak.
+-Amaca yönelik: Pazardaki arkadaş edinme uygulamalarından farklı olarak flört odaklı olmayacak, ilgi alanlarına yönelik eşleşmeler ve tag'ler bulunacak.
 
--Güvenli ve gizli: Kullanıcılar kişisel bilgilerin korunduğundan emin olacak. Sahte hesaplar ve kişiler uygulamada yer almayacak. Yüz tanıma kullanarak kişinin kimliği doğrulanacak. Kullanıcı eşleştiği kişilere davet gönderebilecek ve davetten vazgeçebilecek.
+-Güvenli ve gizli: Kullanıcılar kişisel bilgilerin korunduğundan emin olacak. Profillerin gerçek kişi olması doğrulanarak kullanılacak. Bot hesaplar elimine edilecek. Kullanıcı eşleştiği kişilere davet gönderebilecek. Davet gönderme ve alma tercihleri kişiselleştirilebilecek. 
 
 **Hedef Kitle**
 
@@ -45,18 +45,30 @@ User Story'ler product backlog'un içerisine eklnemiştir: https://app.asana.com
 
 **Sprint notları:**
 
-Miro kullanılarak her takım üyesinden muhtemel bir problem istendi.
-Miro kullanılarak problem belirlendi. Problemin muhtemel ortak noktaları listelendi. Bulunan ortak sorun üzerinden çözümler geliştirildi. Çözümleri detaylandırmak için ve alt problemleri belirlemek için persona belirlendi ve persona analizi yapıldı. Yaklaşık 500 kişiyle yapılan anketler sonucunda persona problemleri detaylandı. Alt problemler belirginleşti ve yalın kanvas bu girdiler düşünülerek doldurulmaya başlandı. Daily sprinte kadar rakip uygulamalar araştırıldı. O günün daily sprint’inde gelir modeli belirlendi sonrasında maliyetler listelenerek yalın kanvas tamamlandı. Yalın kanvas proje detayları göz önünde bulundurularak developers road map oluşturuldu (02.05.22). 3 Mayıs ve 4 Mayıs UI tasarımları üzerine tartışıldı. Yol haritası güncellendi. 5 Mayıs ve 6 Mayıs uygulamanın UI tasarım üzerinden kodları yazıldı.
+Miro kullanılarak her takım üyesinden bir problem tespit etmesi istendi. Ortaklaşılan problem belirlendi. Problemin muhtemel ortak noktaları listelendi. Bulunan ortak sorun üzerinden çözümler geliştirildi. Geliştirilen fikir ve çözümlerin doğrulama süreçleri için yaklaşık 500'den fazla kişiyle anket yapıldı. Anketler sonucunda ilgi kümeleri oluşturuldu. Anket sonuçlarındaki açık uçlu sorulara verilen cevaplar bir excelde incelenerek en çok problem ve talebin nerde olduğu belirlendi. Bu şekilde empati haritası da çıkarıldı. Ortaya çıkan bulgulardan da çeşitli ve detaylı persona analizleri oluşturuldu. En sonunda doğrulanan problemler ve çözümler de detaylandırılarak girişim fikrimizin cümleye aktarılma süreci tamamlandı.
+Bu sürecin ardından başta problem, çözüm ve rakip bölümleri olmak üzere yalın kanvas doldurulmaya başlandı. Sonraki daily sprinte kadar rakip uygulamalar test edildi. İkinci yalın kanvas toplantısında gelir modeli ve maliyetler de belirlendi ve yalın kanvas tamamlandı. Yalın kanvas proje detayları göz önünde bulundurularak developers road map oluşturuldu (02.05.22). 3 Mayıs ve 4 Mayıs UI tasarımları yapıldı ve tasarımlar tartışıldı. Developer kanadında yol haritası  güncellendi. 5 Mayıs ve 6 Mayıs uygulamanın UI tasarım üzerinden kodları yazıldı.  
 
 
-**Tahmin edilen tamamlanacak puan**: 100 Puan
+**Tahmin edilen tamamlanacak puan**: 78.5/100 puan 
 
-**Tahmin mantığı:** Proje yönetimi, zaman planlama, persona araştırması, kod kalitesi, ekip içi iletişim, UI tasarımları ve hedeflenen plana uygunluk düşünülerek puana karar verilmiştir.
+**Tahmin mantığı:** 
+
+Proje yönetimi: 9 puan (çok iyi)
+Proje yönetim araşlarının verimli kullanılması 8.5 puan (çok iyi olma yolunda)
+Zaman planlama: 6 puan (iyileşmesi lazım, atak yapmamız lazımm)
+Persona araştırması: 10 puan (çok iyi)
+Kod kalitesi: 8 puan (çok iyi olma yolunda)
+Ekip içi iletişim: 10 puan (çok iyi)
+Çeviklik: 7.5 puan (iyi ama daha iyi olacak)
+UI tasarımları: 7 puan (iyi ama daha iyi olacak)
+Hedeflenen plana uygun hareket etme: 6.5 puan (iyileşmesi lazım)
+Teknik yeterlilik: 6 puan (iyileşmesi lazım, atak yapmamız lazımm)
+
+
 
 **"Asana kullanılarak oluşturulan Ürün İş Listesi"**
 
 ![image](https://user-images.githubusercontent.com/104425709/167313070-45abeb54-d680-4d6d-9a2c-482cb4e8e3bc.png)
-
 
 
 **"Yalın Kanvas : Persona problemleri, Benzersiz değer teklifi, Rakip analizi, Kilit metrikler, Gelir kaynakları, Maliyet Yapısı göz önünde tutularak tamamlanmıştır."**
@@ -91,10 +103,9 @@ Miro kullanılarak problem belirlendi. Problemin muhtemel ortak noktaları liste
 ![image](https://user-images.githubusercontent.com/104425709/167314112-d9a0c573-7ff6-40df-b8a5-67ee5de89330.png)
 
 
-
 **Sprint Review:**
 
-Uygulamada “kullanıcı giriş” ekranından sonra ana sayfaya yönlendirilmeye karar verilmiştir. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. E-posta ve/veya telefon doğrulaması ekranı geliştirilmeye karar verilmiştir. UI kısmında daha fazla oyunlaştırma ve görsel uygulamaya eklenilecektir. Yalın kanvasa göre belirlenen uygulama temelleri ilk sprint için gelinmesi gereken hedef doğrultusunda tamamlanmıştır. Ek olarak kullanıcıların ilgi alanlarını belirlediği arayüzde çeşitli butonlar ile görselleştirmeyi zengileştirme amaçlandı. Sprint review katılımcıları: Mahmutcan Ekim, Zeynep Elif Demirel, Ömer Faruk Yazıcı, Meryem Reyhan Dereköy.
+Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. E-posta ve/veya telefon doğrulaması ekranı geliştirilmeye karar verilmiştir. UI kısmında daha fazla oyunlaştırma ve görsel uygulamaya eklenilecektir. Yalın kanvasa göre belirlenen uygulama temelleri ilk sprint için gelinmesi gereken hedef doğrultusunda tamamlanmıştır. Ek olarak kullanıcıların ilgi alanlarını belirlediği arayüzde çeşitli butonlar ile görselleştirmeyi zengileştirme amaçlandı. Sprint review katılımcıları: Mahmutcan Ekim, Zeynep Elif Demirel, Ömer Faruk Yazıcı, Meryem Reyhan Dereköy.
 
 **Sprint Retrospective:**
 
