@@ -26,17 +26,15 @@ refikA, 15-45 yaş arası, çekingenlikten veya sosyal çevre yetersizliğinden 
 
 **Ürün Özellikleri**
 
--Amaca yönelik: diğer arkadaş̧ edinme uygulamalarından farklı olmalı ama flört etmek ya da hayatında cinsel anlamda bir şey katmak odaklı değil, insanların güvenli, yarı gizli bir şekilde iletişim kurmasını sağlamak.
+-Amaca yönelik: diğer arkadaş̧ edinme uygulamalarından farklı olmalı ama flört amacı gütmeden, insanların güvenli, yarı gizli bir şekilde iletişim kurmasını sağlamak.
 
--Güvenli ve gizli: Kişisel bilgilerin korunduğundan emin ve tamamen deşifre olmak istemiyor. Bu noktadan dolayı refikA’da profil fotoğrafı kullanılmıyor. Onun yerine başka bir yöntem izlenmeli.
-
--Eşleştiğin kişileri tercih edebilmek ve davetten vazgeçebilmek
+-Güvenli ve gizli: Kullanıcılar kişisel bilgilerin korunduğundan emin olacak. Sahte hesaplar ve kişiler uygulamada yer almayacak. Yüz tanıma kullanarak kişinin kimliği doğrulanacak. Kullanıcı eşleştiği kişilere davet gönderebilecek ve davetten vazgeçebilecek.
 
 **Hedef Kitle**
 
--Yeni hobiler edinmek isteyen 15-19 yaş arası gençler
+-Yeni hobiler edinmek isteyen 15-18 yaş arası gençler
 
--Kurumsal hayata geçmeye hazır 20-30 yaş arası gençler
+-Eğitim hayatına devam eden, çalışma hayata geçmekte olan ya da geçmiş 18-30 yaş arası yetişkinler
 
 -Hayatında belli bir düzen oluşturmuş 30+ yetişkinler
 
@@ -50,27 +48,27 @@ Miro kullanılarak her takım üyesinden muhtemel bir problem istendi.
 Miro kullanılarak problem belirlendi. Problemin muhtemel ortak noktaları listelendi. Bulunan ortak sorun üzerinden çözümler geliştirildi. Çözümleri detaylandırmak için ve alt problemleri belirlemek için persona belirlendi ve persona analizi yapıldı. Yaklaşık 500 kişiyle yapılan anketler sonucunda persona problemleri detaylandı. Alt problemler belirginleşti ve yalın kanvas bu girdiler düşünülerek doldurulmaya başlandı. Daily sprinte kadar rakip uygulamalar araştırıldı. O günün daily sprint’inde gelir modeli belirlendi sonrasında maliyetler listelenerek yalın kanvas tamamlandı. Yalın kanvas proje detayları göz önünde bulundurularak developers road map oluşturuldu (02.05.22). 3 Mayıs ve 4 Mayıs UI tasarımları üzerine tartışıldı. Yol haritası güncellendi. 5 Mayıs ve 6 Mayıs uygulamanın UI tasarım üzerinden kodları yazıldı.
 
 
-**Tahmin edilen tamamlanacak puan**: 100 Puan
+**Tahmin edilen tamamlanacak puan**: 90 Puan
 
 **Tahmin mantığı:** Proje yönetimi, zaman planlama, persona araştırması, kod kalitesi, ekip içi iletişim, UI tasarımları ve hedeflenen plana uygunluk düşünülerek puana karar verilmiştir.
 
+![image](https://user-images.githubusercontent.com/104425709/167313070-45abeb54-d680-4d6d-9a2c-482cb4e8e3bc.png)
 
-![image](https://user-images.githubusercontent.com/104425709/167236520-260f55e6-41d8-4a64-9cd8-4f580e0c21b2.png)
 
 **"Asana kullanılarak oluşturulan Ürün İş Listesi"**
 
 
-![image](https://user-images.githubusercontent.com/104425709/167236596-5ad931d2-1c27-4181-a503-eab4c1809398.png)
+![image](https://user-images.githubusercontent.com/104425709/167313098-0641fe78-dfd4-46fb-995e-e9c38bda6b34.png)
 
 **"Yalın Kanvas : Persona problemleri, Benzersiz değer teklifi, Rakip analizi, Kilit metrikler, Gelir kaynakları, Maliyet Yapısı göz önünde tutularak tamamlanmıştır."**
 
 
-![image](https://user-images.githubusercontent.com/104425709/167236616-0047e226-45b7-4a59-b2b9-f64b2ec858e5.png)
-![image](https://user-images.githubusercontent.com/104425709/167236628-9a003d60-45c5-4adf-9fe6-e44b7d98b78d.png)
+!![image](https://user-images.githubusercontent.com/104425709/167313131-91f1ca86-221c-4914-b35d-2637eba4a5c0.png)
+![image](https://user-images.githubusercontent.com/104425709/167313144-36f160d0-aee8-4d2b-9aa5-52a796ff176a.png)
 
 **"Product Backlog"**
 
-![image](https://user-images.githubusercontent.com/104425709/167236646-ab5ef623-e738-42fc-8cf5-ed0e1e05c14f.png)
+![image](https://user-images.githubusercontent.com/104425709/167313155-fb4d3280-2c57-49b7-a0b6-12d5e1a952dd.png)
 
 **"Daily Scrum Ekran Kayıtları"**
 
