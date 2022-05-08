@@ -42,7 +42,7 @@ refikA, 15-45 yaş arası, çekingenlikten veya sosyal çevre yetersizliğinden 
 
 
 **Product Backlog URL:** 
-https://miro.com/app/board/uXjVO42zXFQ=/?share_link_id=13609006423
+https://app.asana.com/0/1202237477063338/board
 
 **Sprint notları:**
 
