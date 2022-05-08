@@ -41,6 +41,7 @@ refikA, 15-45 yaş arası, çekingenlikten veya sosyal çevre yetersizliğinden 
 
 **Product Backlog URL:** 
 https://app.asana.com/0/1202237477063338/board
+User Story'ler product backlog'un içerisine eklnemiştir: https://app.asana.com/0/1202237477063338/1202237477063405/f
 
 **Sprint notları:**
 
@@ -52,29 +53,50 @@ Miro kullanılarak problem belirlendi. Problemin muhtemel ortak noktaları liste
 
 **Tahmin mantığı:** Proje yönetimi, zaman planlama, persona araştırması, kod kalitesi, ekip içi iletişim, UI tasarımları ve hedeflenen plana uygunluk düşünülerek puana karar verilmiştir.
 
+**"Asana kullanılarak oluşturulan Ürün İş Listesi"**
+
 ![image](https://user-images.githubusercontent.com/104425709/167313070-45abeb54-d680-4d6d-9a2c-482cb4e8e3bc.png)
 
 
-**"Asana kullanılarak oluşturulan Ürün İş Listesi"**
-
-
-![image](https://user-images.githubusercontent.com/104425709/167313098-0641fe78-dfd4-46fb-995e-e9c38bda6b34.png)
 
 **"Yalın Kanvas : Persona problemleri, Benzersiz değer teklifi, Rakip analizi, Kilit metrikler, Gelir kaynakları, Maliyet Yapısı göz önünde tutularak tamamlanmıştır."**
 
+![image](https://user-images.githubusercontent.com/104425709/167313098-0641fe78-dfd4-46fb-995e-e9c38bda6b34.png)
+
+
+**"Product Backlog"**
 
 !![image](https://user-images.githubusercontent.com/104425709/167313131-91f1ca86-221c-4914-b35d-2637eba4a5c0.png)
 ![image](https://user-images.githubusercontent.com/104425709/167313144-36f160d0-aee8-4d2b-9aa5-52a796ff176a.png)
 
-**"Product Backlog"**
-
-![image](https://user-images.githubusercontent.com/104425709/167313155-fb4d3280-2c57-49b7-a0b6-12d5e1a952dd.png)
 
 **"Daily Scrum Ekran Kayıtları"**
 
-XXXXX
 
 **"Son Ürün Fotoğrafarı"**
+
+![image](https://user-images.githubusercontent.com/104425709/167313155-fb4d3280-2c57-49b7-a0b6-12d5e1a952dd.png)
+
+![image](https://user-images.githubusercontent.com/104425709/167314027-f77ac2aa-b2fb-4680-8cae-210baaeca5d7.png)
+
+![image](https://user-images.githubusercontent.com/104425709/167314050-67ba4517-561c-4a78-bde9-6cffa87142c1.png)
+
+![image](https://user-images.githubusercontent.com/104425709/167314055-9e20fbac-aaf9-4568-a87e-dd3acf6cd3f1.png)
+
+![image](https://user-images.githubusercontent.com/104425709/167314061-fdf0f05e-bf85-46bd-9eb7-fbe9f808e3e9.png)
+
+![image](https://user-images.githubusercontent.com/104425709/167314094-2c317c07-d86b-42d7-8c39-04cad97f2c3d.png)
+
+![image](https://user-images.githubusercontent.com/104425709/167314099-8d6d4e1f-48bf-4efe-88e6-5c71671bb2e5.png)
+
+![image](https://user-images.githubusercontent.com/104425709/167314106-4f492bdb-5d63-4188-bb14-530d608b3950.png)
+
+![image](https://user-images.githubusercontent.com/104425709/167314108-1c018df3-6e07-4e34-beaa-fb01e8c821d4.png)
+
+![image](https://user-images.githubusercontent.com/104425709/167314112-d9a0c573-7ff6-40df-b8a5-67ee5de89330.png)
+
+
+
 
 
 **Sprint Review:**
