@@ -32,11 +32,11 @@ refikA, 15-45 yaş arası, çekingenlikten veya sosyal çevre yetersizliğinden 
 
 **Hedef Kitle**
 
--Yeni hobiler edinmek isteyen 15-18 yaş arası gençler
+Yeni hobiler edinmek isteyen 15-18 yaş arası çocuklar
 
--Eğitim hayatına devam eden, çalışma hayata geçmekte olan ya da geçmiş 18-30 yaş arası yetişkinler
+Eğitim hayatına devam eden, çalışma hayata geçmekte olan ya da geçmiş 18-30 yaş arası gençler/yetişkinler
 
--Hayatında belli bir düzen oluşturmuş 30+ yetişkinler
+Hayatında belli bir düzen oluşturmuş 30+ yetişkinler
 
 
 **Product Backlog URL:** 
@@ -49,7 +49,7 @@ Miro kullanılarak her takım üyesinden muhtemel bir problem istendi.
 Miro kullanılarak problem belirlendi. Problemin muhtemel ortak noktaları listelendi. Bulunan ortak sorun üzerinden çözümler geliştirildi. Çözümleri detaylandırmak için ve alt problemleri belirlemek için persona belirlendi ve persona analizi yapıldı. Yaklaşık 500 kişiyle yapılan anketler sonucunda persona problemleri detaylandı. Alt problemler belirginleşti ve yalın kanvas bu girdiler düşünülerek doldurulmaya başlandı. Daily sprinte kadar rakip uygulamalar araştırıldı. O günün daily sprint’inde gelir modeli belirlendi sonrasında maliyetler listelenerek yalın kanvas tamamlandı. Yalın kanvas proje detayları göz önünde bulundurularak developers road map oluşturuldu (02.05.22). 3 Mayıs ve 4 Mayıs UI tasarımları üzerine tartışıldı. Yol haritası güncellendi. 5 Mayıs ve 6 Mayıs uygulamanın UI tasarım üzerinden kodları yazıldı.
 
 
-**Tahmin edilen tamamlanacak puan**: 90 Puan
+**Tahmin edilen tamamlanacak puan**: 100 Puan
 
 **Tahmin mantığı:** Proje yönetimi, zaman planlama, persona araştırması, kod kalitesi, ekip içi iletişim, UI tasarımları ve hedeflenen plana uygunluk düşünülerek puana karar verilmiştir.
 
@@ -108,15 +108,28 @@ UI görevini üstlenecek ekip arkdaşımız sağlık sorunu nedeniyle takımdan 
 
 Kişi başına düşen görev dağılımı ve yoğunluğu ilk planlanana göre değişmek zorunda kalsa da bu durum bir gün gibi kısa bir süre içinde toparlandı ve vakit kaybedilmeden süreç devam etti.
 
-Plana uygun tasarımlar başarılı ve hızlı bir şekilde koda aktarıldı.
+UI backlog'u tarafında; açılış sayfası, uygulamayı tanıtan 3 sayfa, kayıt/giriş sayfaları tamamlandı. Koda dönüştürüldü.
 
-Bir sonraki sprintte; proje için güvenlik algoritmaları geliştirilmeli.
+Bir sonraki sprintte; 
 
-Projenin “log in” sayfasında bağlantılı uygulamalar ile kullanıcı girişi sağlanmalı.
+Proje için güvenlik algoritmaları geliştirilmeli.
+
+Projenin “log in” sayfasında bağlantılı uygulamalar ile kullanıcı girişi sağlanmalı. (Api, firebase)
+
+Anasayfa, kullanıcı profili ekranları tamamlanmalı ve koda aktarılmalı. 
+
 
 **Diğer notlar:**
 
-Yalın kanvas; 10'dan fazla rakip uygulamanın indirilip test edilmesi, tüm ekip üyelerinin sosyal medya takipçileri üzerinden 15-45 hedef kitlesi özelinde 500 kişiyi aşan bir katılıma sahip detaylı bir anket sonucunda oluşturulmuştur. İlk 3 toplantında, beyin fırtınası yapmak ve yalın kanvasta benzersiz değerimizi netleştirmek amacıyla vakit sınırlaması kaldırılmış ve tüm ekip üyelerinin proaktif bi şekilde ürünü geliştirmede rol alması sağlanmıştır. User story’ler incelendikten sonra uygulamanın giriş ekranında ve uygulamayı tanıtan sayfalarda “skip/geç” tuşu dışında yazı olmadan sade sayfalar olarak tasarlanmas kararlaştırılmıştır. UI backlog'u tarafında; açılış sayfası, uygulamayı tanıtan 3 sayfa, kayıt/giriş sayfaları, kişiye özel eşleşme-topluluklar ve etkinlik olmak üzere kişiselleştirilmiş sayfalar tamamlanmıştır. 
+Yalın kanvas; 10'dan fazla rakip uygulamanın indirilip test edilmesi, tüm ekip üyelerinin sosyal medya takipçileri üzerinden 15-45 hedef kitlesi özelinde 500 kişiyi aşan bir katılıma sahip detaylı bir anket sonucunda oluşturuldu. Bununu sonucunda hedef kitlenin yaşadığı problemler ve taleplerini anlamak kolaylaştı. ,
+
+User story’lerden hedef kitlemizin en büyük talebinin; bot hesapların oluşturulmasını engelleme, iletişim açısından güvenli ortam oluşturma ve kendi ilgi alanlarına dair oluşacak toplulukları bulabilme olduğu çıkarımı yapıldı. 2. sprintte bu objektiflere yönelik görevler ekip üyelerine delege edildi.
+
+İlk 3 toplantında, beyin fırtınası yapmak ve yalın kanvasta benzersiz değerimizi netleştirmek amacıyla vakit sınırlaması kaldırıldı ve tüm ekip üyelerinin proaktif bi şekilde ürünü geliştirmede rol alması sağlandı. Bunun sonucunda her ekip üyesi ortak bir hedefe aidiyet hissetti ve yüksek motivasyonla kendisine ait sorumluluklara hızlı bir şekilde adapte olabildi. Önemli kararları vakitten kaçınmadan istişare etmek her seferinde bize daha çok verim sağladı. 
+
+Global pazara açılmak hedefi nedeniyle uygulama İngilizce dilinde tasarlandı. Kullanıcı tercihlerini öncelemek amacıyla giriş ekranında "Misafir olarak devam et", tanıtım sayfalarında "skip" butonu bulundurulması kararlaştırıldı. 
+
+
 
 **Proje Yönetiminde kullanılan araçlar:** 
 Cizio, Trello, Miro, Notion, Asana, Surveymonkey.
