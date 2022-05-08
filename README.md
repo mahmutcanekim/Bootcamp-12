@@ -22,7 +22,7 @@ refikA
 
 **Ürün Açıklaması**
 
-refikA, 15-45 yaş arası, çekingenlikten veya sosyal çevre yetersizliğinden dolayı ilgi alanlarına yönelik arkadaş bulamayan bireylerin, güvenli şekilde ilgi alanlarına ve hobilerine yönelik insanlarla eşleşebildikleri ve canlı ilgi haritaları sayeysinde ilgili oldukları topluluklara katılabildileri bir ortam yaratır.
+refikA, 15-45 yaş arası, çekingenlikten veya sosyal çevre yetersizliğinden dolayı ilgi alanlarına yönelik arkadaş bulamayan bireylerin, güvenli şekilde ilgi alanlarına ve hobilerine yönelik insanlarla eşleşebildikleri ve canlı ilgi haritaları sayesinde ilgili oldukları topluluklara katılabildileri bir ortam yaratır.
 
 **Ürün Özellikleri**
 
