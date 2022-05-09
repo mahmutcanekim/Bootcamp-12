@@ -26,17 +26,16 @@ refikA, 15-45 yaş arası, çekingenlikten veya sosyal çevre yetersizliğinden 
 
 **Ürün Özellikleri**
 
--Amaca yönelik: Pazardaki arkadaş edinme uygulamalarından farklı olarak flört odaklı olmayacak, ilgi alanlarına yönelik eşleşmeler ve tag'ler bulunacak.
+-Sosyalleşme ve ilgi alanı odaklı network kurma amacına yönelik: Pazardaki arkadaş edinme uygulamalarından farklı olarak flört odaklı olmayacak, ilgi alanlarına yönelik eşleşmeler ve tag'ler bulunacak.
 
--Güvenli ve gizli: Kullanıcılar kişisel bilgilerin korunduğundan emin olacak. Profillerin gerçek kişi olması doğrulanarak kullanılacak. Bot hesaplar elimine edilecek. Kullanıcı eşleştiği kişilere davet gönderebilecek. Davet gönderme ve alma tercihleri kişiselleştirilebilecek. 
+-Güvenli ve gizlik: Kullanıcılar kişisel bilgilerin korunduğundan emin olacak. Profillerin gerçek kişi olması doğrulanarak kullanılacak. Bot hesaplar elimine edilecek. Kullanıcı eşleştiği kişilere davet gönderebilecek. Davet gönderme ve alma tercihleri kişiselleştirilebilecek. 
 
 **Hedef Kitle**
 
-Yeni hobiler edinmek isteyen 15-18 yaş arası çocuklar
-
-Eğitim hayatına devam eden, çalışma hayata geçmekte olan ya da geçmiş 18-30 yaş arası gençler/yetişkinler
-
-Hayatında belli bir düzen oluşturmuş 30+ yetişkinler
+15-18: Yeni hobiler edinmek isteyen, kendilerini keşfetmek isteyen, hobilerine göre ortam edinmek isteyen çocuklar/gençler
+18-25: Üniversite çağındaki belli bir sosyal ortamın içinde olan ilgi alanları çerçevesinde kendilerine göre kişileri arayan gençler
+25-30: Eğitim hayatı devam eden, yeni bitmiş ya da çalışma hayatı başlamış gençler
+30+: Hayat tarzı belli bir düzene oluşturmuş, sosyal hayatları eskisi kadar cıvıl cvıl olmayan yetişkinler
 
 
 **Product Backlog URL:** 
@@ -71,9 +70,9 @@ Teknik yeterlilik: 6 puan (iyileşmesi lazım, atak yapmamız lazımm)
 ![image](https://user-images.githubusercontent.com/104425709/167313070-45abeb54-d680-4d6d-9a2c-482cb4e8e3bc.png)
 
 
-**"Yalın Kanvas : Persona problemleri, Benzersiz değer teklifi, Rakip analizi, Kilit metrikler, Gelir kaynakları, Maliyet Yapısı göz önünde tutularak tamamlanmıştır."**
+**"Yalın Kanvas : Persona problemleri, Benzersiz değer teklifi, Rakip analizi, Kilit metrikler, Gelir kaynakları, Maliyet Yapısı göz önünde tutularak tamamlanmıştır."** gözükmemesi ihtimaline karşılık: https://drive.google.com/file/d/1z36RlzQ7Ss-Fa_NMz6TZToB8UOD_yZXD/view?usp=sharing
 
-![image](https://user-images.githubusercontent.com/104425709/167313098-0641fe78-dfd4-46fb-995e-e9c38bda6b34.png)
+![image](https://user-images.githubusercontent.com/104425709/167327517-d9f67199-beac-4d28-aedc-387d4aa02239.png)
 
 
 **"Product Backlog"**
