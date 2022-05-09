@@ -22,7 +22,8 @@ refikA
 
 **Ürün Açıklaması**
 
-refikA, 15-45 yaş arası, çekingenlikten veya sosyal çevre yetersizliğinden dolayı ilgi alanlarına yönelik arkadaş bulamayan bireylerin, güvenli şekilde ilgi alanlarına ve hobilerine yönelik insanlarla eşleşebildikleri ve canlı ilgi haritaları sayesinde ilgili oldukları topluluklara katılabildileri bir ortam yaratır.
+refikA, 15-18, 18-25, 25-30 ve 30+ olarak belirlenen yaş gruplarındaki bireylerin yalnızlık, çekingenlik, önyargı, güvenli ortam bulamama  ya da network eksilği gibi durumlar yaşaması karşısında,  "sosyalleşme ve ilgi alanı odaklı network kurma" amacına yönelik güvenli şekilde kişiler ve topluluklarla kaynaşabildikleri bir platformdur.
+
 
 **Ürün Özellikleri**
 
@@ -40,6 +41,7 @@ refikA, 15-45 yaş arası, çekingenlikten veya sosyal çevre yetersizliğinden 
 
 **Product Backlog URL:** 
 https://app.asana.com/0/1202237477063338/board
+
 User Story'ler product backlog'un içerisine eklnemiştir: https://app.asana.com/0/1202237477063338/1202237477063405/f
 
 **Sprint notları:**
