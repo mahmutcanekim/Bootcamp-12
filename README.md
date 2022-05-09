@@ -2,6 +2,7 @@
 
 refikA
 
+
 **Ürün ile ilgili Bilgiler**
 
 
@@ -20,6 +21,7 @@ refikA
 
 ----refikA----
 
+
 **Ürün Açıklaması**
 
 refikA, 15-18, 18-25, 25-30 ve 30+ olarak belirlenen yaş gruplarındaki bireylerin yalnızlık, çekingenlik, önyargı, güvenli ortam bulamama  ya da network eksilği gibi durumlar yaşaması karşısında,  "sosyalleşme ve ilgi alanı odaklı network kurma" amacına yönelik güvenli şekilde kişiler ve topluluklarla kaynaşabildikleri bir platformdur.
@@ -31,18 +33,25 @@ refikA, 15-18, 18-25, 25-30 ve 30+ olarak belirlenen yaş gruplarındaki bireyle
 
 -Güvenli ve gizlik: Kullanıcılar kişisel bilgilerin korunduğundan emin olacak. Profillerin gerçek kişi olması doğrulanarak kullanılacak. Bot hesaplar elimine edilecek. Kullanıcı eşleştiği kişilere davet gönderebilecek. Davet gönderme ve alma tercihleri kişiselleştirilebilecek. 
 
+
 **Hedef Kitle**
 
 15-18: Yeni hobiler edinmek isteyen, kendilerini keşfetmek isteyen, hobilerine göre ortam edinmek isteyen çocuklar/gençler
+
 18-25: Üniversite çağındaki belli bir sosyal ortamın içinde olan ilgi alanları çerçevesinde kendilerine göre kişileri arayan gençler
+
 25-30: Eğitim hayatı devam eden, yeni bitmiş ya da çalışma hayatı başlamış gençler
+
 30+: Hayat tarzı belli bir düzene oluşturmuş, sosyal hayatları eskisi kadar cıvıl cvıl olmayan yetişkinler
 
 
+
 **Product Backlog URL:** 
+
 https://app.asana.com/0/1202237477063338/board
 
 User Story'ler product backlog'un içerisine eklnemiştir: https://app.asana.com/0/1202237477063338/1202237477063405/f
+
 
 **Sprint notları:**
 
@@ -55,14 +64,23 @@ Bu sürecin ardından başta problem, çözüm ve rakip bölümleri olmak üzere
 **Tahmin mantığı:** 
 
 Proje yönetimi: 9 puan (çok iyi)
+
 Proje yönetim araşlarının verimli kullanılması 8.5 puan (çok iyi olma yolunda)
+
 Zaman planlama: 6 puan (iyileşmesi lazım, atak yapmamız lazımm)
+
 Persona araştırması: 10 puan (çok iyi)
+
 Kod kalitesi: 8 puan (çok iyi olma yolunda)
+
 Ekip içi iletişim: 10 puan (çok iyi)
+
 Çeviklik: 7.5 puan (iyi ama daha iyi olacak)
+
 UI tasarımları: 7 puan (iyi ama daha iyi olacak)
+
 Hedeflenen plana uygun hareket etme: 6.5 puan (iyileşmesi lazım)
+
 Teknik yeterlilik: 6 puan (iyileşmesi lazım, atak yapmamız lazımm)
 
 
@@ -90,7 +108,6 @@ Teknik yeterlilik: 6 puan (iyileşmesi lazım, atak yapmamız lazımm)
 
 **"Son Ürün Fotoğrafarı"**
 
-
 ![image](https://user-images.githubusercontent.com/104425709/167314027-f77ac2aa-b2fb-4680-8cae-210baaeca5d7.png)
 ![image](https://user-images.githubusercontent.com/104425709/167314050-67ba4517-561c-4a78-bde9-6cffa87142c1.png)
 ![image](https://user-images.githubusercontent.com/104425709/167314055-9e20fbac-aaf9-4568-a87e-dd3acf6cd3f1.png)
@@ -107,6 +124,7 @@ Teknik yeterlilik: 6 puan (iyileşmesi lazım, atak yapmamız lazımm)
 **Sprint Review:**
 
 Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. E-posta ve/veya telefon doğrulaması ekranı geliştirilmeye karar verilmiştir. UI kısmında daha fazla oyunlaştırma ve görsel uygulamaya eklenilecektir. Yalın kanvasa göre belirlenen uygulama temelleri ilk sprint için gelinmesi gereken hedef doğrultusunda tamamlanmıştır. Ek olarak kullanıcıların ilgi alanlarını belirlediği arayüzde çeşitli butonlar ile görselleştirmeyi zengileştirme amaçlandı. Sprint review katılımcıları: Mahmutcan Ekim, Zeynep Elif Demirel, Ömer Faruk Yazıcı, Meryem Reyhan Dereköy.
+
 
 **Sprint Retrospective:**
 
@@ -146,11 +164,14 @@ Global pazara açılmak hedefi nedeniyle uygulama İngilizce dilinde tasarlandı
 **Proje Yönetiminde kullanılan araçlar:** 
 Cizio, Trello, Miro, Notion, Asana, Surveymonkey.
 
+
 **UI tasarımında kullanılan araçlar:**
 Figma, ProtoPie.
 
+
 **İletişimde kullanılan araçlar:** 
 Zoom, Discord, Mail, Whatsapp, Slack.
+
 
 
 
