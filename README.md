@@ -48,10 +48,10 @@ refikA, 15-18, 18-25, 25-30 ve 30+ olarak belirlenen yaş gruplarındaki bireyle
 
 **Product Backlog URL:** 
 
-https://app.asana.com/0/1202237477063338/board
+https://app.asana.com/0/1202248589829836/board
 
 User Story'ler product backlog'un içerisine eklnemiştir: 
-https://app.asana.com/0/1202237477063338/1202237477063405/f
+
 
 
 **Sprint notları:**
