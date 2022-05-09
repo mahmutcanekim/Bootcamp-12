@@ -50,7 +50,8 @@ refikA, 15-18, 18-25, 25-30 ve 30+ olarak belirlenen yaş gruplarındaki bireyle
 
 https://app.asana.com/0/1202237477063338/board
 
-User Story'ler product backlog'un içerisine eklnemiştir: https://app.asana.com/0/1202237477063338/1202237477063405/f
+User Story'ler product backlog'un içerisine eklnemiştir: 
+https://app.asana.com/0/1202237477063338/1202237477063405/f
 
 
 **Sprint notları:**
@@ -90,12 +91,12 @@ Teknik yeterlilik: 6 puan (iyileşmesi lazım, atak yapmamız lazımm)
 ![image](https://user-images.githubusercontent.com/104425709/167328739-811f4d99-c052-44fa-89cf-fb37710f23ba.png)
 
 
-**"Yalın Kanvas : Persona problemleri, Benzersiz değer teklifi, Rakip analizi, Kilit metrikler, Gelir kaynakları, Maliyet Yapısı göz önünde tutularak tamamlanmıştır."** gözükmemesi ihtimaline karşılık: https://drive.google.com/file/d/1z36RlzQ7Ss-Fa_NMz6TZToB8UOD_yZXD/view?usp=sharing
+**"Yalın Kanvas : Persona problemleri, Benzersiz değer teklifi, Rakip analizi, Kilit metrikler, Gelir kaynakları, Maliyet Yapısı göz önünde tutularak tamamlanmıştır."** görüntü kalitesi düşük olması ihtimaline karşılık: https://drive.google.com/file/d/1z36RlzQ7Ss-Fa_NMz6TZToB8UOD_yZXD/view?usp=sharing
 
 ![image](https://user-images.githubusercontent.com/104425709/167327517-d9f67199-beac-4d28-aedc-387d4aa02239.png)
 
 
-**"Product Backlog"**
+**"Product Backlog"** görüntü kalitesi düşük olması ihtimaline karşılık: https://miro.com/app/board/uXjVO42zXFQ=/?share_link_id=976960260586
 
 !![image](https://user-images.githubusercontent.com/104425709/167313131-91f1ca86-221c-4914-b35d-2637eba4a5c0.png)
 ![image](https://user-images.githubusercontent.com/104425709/167313144-36f160d0-aee8-4d2b-9aa5-52a796ff176a.png)
