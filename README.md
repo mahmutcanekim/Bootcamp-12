@@ -50,7 +50,7 @@ refikA, 15-18, 18-25, 25-30 ve 30+ olarak belirlenen yaş gruplarındaki bireyle
 
 https://app.asana.com/0/1202248589829836/board
 
-User Story'ler product backlog'un içerisine eklnemiştir: 
+User Story'ler product backlog'un içerisine eklenemiştir: 
 
 
 
@@ -60,30 +60,17 @@ Miro kullanılarak her takım üyesinden bir problem tespit etmesi istendi. Orta
 Bu sürecin ardından başta problem, çözüm ve rakip bölümleri olmak üzere yalın kanvas doldurulmaya başlandı. Sonraki daily sprinte kadar rakip uygulamalar test edildi. İkinci yalın kanvas toplantısında gelir modeli ve maliyetler de belirlendi ve yalın kanvas tamamlandı. Yalın kanvas proje detayları göz önünde bulundurularak developers road map oluşturuldu (02.05.22). 3 Mayıs ve 4 Mayıs UI tasarımları yapıldı ve tasarımlar tartışıldı. Developer kanadında yol haritası  güncellendi. 5 Mayıs ve 6 Mayıs uygulamanın UI tasarım üzerinden kodları yazıldı.  
 
 
-**Tahmin edilen tamamlanacak puan**: 78.5/100 puan 
+**Tahmin edilen tamamlanacak puan**: 108 puan 
 
-**Tahmin mantığı:** 
+**İlk Sprintte Tamamladığımız Puan**: 27 puan
 
-Proje yönetimi: 9 puan (çok iyi)
+**Tahmin mantığı:** Asana Product Backlog'da puanlama kriterleri detaylı olarak belirtilmiştir.https://app.asana.com/0/1202248589829836/board 
 
-Proje yönetim araşlarının verimli kullanılması 8.5 puan (çok iyi olma yolunda)
-
-Zaman planlama: 6 puan (iyileşmesi lazım, atak yapmamız lazımm)
-
-Persona araştırması: 10 puan (çok iyi)
-
-Kod kalitesi: 8 puan (çok iyi olma yolunda)
-
-Ekip içi iletişim: 10 puan (çok iyi)
-
-Çeviklik: 7.5 puan (iyi ama daha iyi olacak)
-
-UI tasarımları: 7 puan (iyi ama daha iyi olacak)
-
-Hedeflenen plana uygun hareket etme: 6.5 puan (iyileşmesi lazım)
-
-Teknik yeterlilik: 6 puan (iyileşmesi lazım, atak yapmamız lazımm)
-
+Genel hatlarıyla puanlama;
+-eşleşme kriterleri (62 puan)- 
+-kullanıcı/veri güvenliği (19 puan)-
+-uygulamanın tasarımı (14 puan)-
+-uygulamanın diğer platformlarla etkileşimi (13 puan)-
 
 
 **"Asana kullanılarak oluşturulan Ürün İş Listesi"**
