@@ -87,7 +87,7 @@ Teknik yeterlilik: 6 puan (iyileşmesi lazım, atak yapmamız lazımm)
 
 **"Asana kullanılarak oluşturulan Ürün İş Listesi"**
 
-![image](https://user-images.githubusercontent.com/104425709/167313070-45abeb54-d680-4d6d-9a2c-482cb4e8e3bc.png)
+![image](https://user-images.githubusercontent.com/104425709/167328739-811f4d99-c052-44fa-89cf-fb37710f23ba.png)
 
 
 **"Yalın Kanvas : Persona problemleri, Benzersiz değer teklifi, Rakip analizi, Kilit metrikler, Gelir kaynakları, Maliyet Yapısı göz önünde tutularak tamamlanmıştır."** gözükmemesi ihtimaline karşılık: https://drive.google.com/file/d/1z36RlzQ7Ss-Fa_NMz6TZToB8UOD_yZXD/view?usp=sharing
