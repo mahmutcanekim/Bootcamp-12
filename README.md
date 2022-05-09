@@ -109,7 +109,7 @@ Teknik yeterlilik: 6 puan (iyileşmesi lazım, atak yapmamız lazımm)
 
 **Sprint Retrospective:**
 
-Zaman planlamaya uyum çok başarılıydı. Daily scrum’ların zamanları belirtilen vakitlerde yapıldı ve herkese uygun saatler sabitlendi. Bu sayede günlük toplantıların saati belirlenmiş oldu.
+ Daily scrum’ların zamanları belirtilen vakitlerde yapıldı ve herkese uygun saatler sabitlendi. Bu sayede günlük toplantıların saati belirlenmiş oldu.
 
 Meeting uygulamaları etkili şekilde kullanıldı. (Zoom ve Discord)
 
