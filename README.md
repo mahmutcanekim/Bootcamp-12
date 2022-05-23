@@ -167,7 +167,6 @@ Zoom, Discord, Mail, Whatsapp, Slack.
 
 
 -------------------------------------------------------------------------------------
-
 **2.Sprint Notları**
 
  (09.05.2022) Miro kullanılarak 2 sprint hedefleri detaylandırıldı ve zamanlandı. Product Owner tarafından Product Backlog güncellendi. Daily sprint saatleri belirlendi ve onaylandı. (11.05.2022) 2.sprint için gerçekleşen buluşma ekip ile birlikte izlenilip not alındı. (12.05.2022) Uygulamada kullanılacak arayüz tasarımları için, farklı bağlantılarla üye girişi için ve sohbet ekranının algoritması üzerine ekip üyeleri eğitimler izledi. (13.05.2022) Eşleşme özelliği için yeterli alt yapının olmadığı kararına varıldı. 2.sprint hedeflerinden “eşleşme özelliği” kaldırıldı ve 3.sprinte taşındı. (16.05.2022) Alınan emülatör hataları tartışıldı. Rakip uygulama arayüzleri incelendi. UI tasarımı ekipçe tartışıldı. (17.05.2022) Firebase’e bağlanma da sorun yaşanıldığı için ekip çözüm aradı. (20.05.2022) 3.sprintte yer alan “kullanıcıya hoş geldin e-postası atma” özellikleri 2.sprinte alındı. (22.05.2022) Sprint Retrospective yapıldı ve 2.sprint kapatıldı.
