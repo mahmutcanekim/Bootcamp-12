@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:refika_app/home_page.dart';
+import 'package:refika_app/service/auth.dart';
 
 class RegisterPage extends StatefulWidget {
   const RegisterPage({Key? key}) : super(key: key);
@@ -10,7 +11,13 @@ class RegisterPage extends StatefulWidget {
 }
 
 class _RegisterPageState extends State<RegisterPage> {
-  bool isRememberMe = false;
+  final TextEditingController _nameController = TextEditingController();
+  final TextEditingController _surnameController = TextEditingController();
+  final TextEditingController _emailController = TextEditingController();
+  final TextEditingController _passwordController = TextEditingController();
+  final AuthService _authService = AuthService();
+
+  bool isPasswordVisible = false;
 
   Widget buildName() {
     return Column(
@@ -32,13 +39,14 @@ class _RegisterPageState extends State<RegisterPage> {
                     color: Colors.black26, blurRadius: 6, offset: Offset(0, 2))
               ]),
           height: 40,
-          child: const TextField(
-            keyboardType: TextInputType.emailAddress,
-            style: TextStyle(color: Colors.black87),
-            decoration: InputDecoration(
+          child: TextField(
+            controller: _nameController,
+            keyboardType: TextInputType.name,
+            style: const TextStyle(color: Colors.black87),
+            decoration: const InputDecoration(
                 border: InputBorder.none,
                 contentPadding: EdgeInsets.only(bottom: 5, left: 5),
-                hintText: 'Name',
+                hintText: 'First Name',
                 hintStyle: TextStyle(color: Colors.black38)),
           ),
         )
@@ -66,13 +74,14 @@ class _RegisterPageState extends State<RegisterPage> {
                     color: Colors.black26, blurRadius: 6, offset: Offset(0, 2))
               ]),
           height: 40,
-          child: const TextField(
-            keyboardType: TextInputType.emailAddress,
-            style: TextStyle(color: Colors.black87),
-            decoration: InputDecoration(
+          child: TextField(
+            controller: _surnameController,
+            keyboardType: TextInputType.name,
+            style: const TextStyle(color: Colors.black87),
+            decoration: const InputDecoration(
                 border: InputBorder.none,
                 contentPadding: EdgeInsets.only(bottom: 5, left: 5),
-                hintText: 'Surname',
+                hintText: 'Last Name',
                 hintStyle: TextStyle(color: Colors.black38)),
           ),
         )
@@ -100,14 +109,15 @@ class _RegisterPageState extends State<RegisterPage> {
                     color: Colors.black26, blurRadius: 6, offset: Offset(0, 2))
               ]),
           height: 40,
-          child: const TextField(
+          child: TextField(
+            controller: _emailController,
             keyboardType: TextInputType.emailAddress,
-            style: TextStyle(color: Colors.black87),
-            decoration: InputDecoration(
+            style: const TextStyle(color: Colors.black87),
+            decoration: const InputDecoration(
                 border: InputBorder.none,
                 contentPadding: EdgeInsets.only(top: 5),
                 prefixIcon: Icon(Icons.email, color: Color(0xff5ac18e)),
-                hintText: 'Email',
+                hintText: '@nameexample.com',
                 hintStyle: TextStyle(color: Colors.black38)),
           ),
         )
@@ -135,15 +145,24 @@ class _RegisterPageState extends State<RegisterPage> {
                     color: Colors.black26, blurRadius: 6, offset: Offset(0, 2))
               ]),
           height: 40,
-          child: const TextField(
-            obscureText: true,
-            style: TextStyle(color: Colors.black87),
+          child: TextField(
+            controller: _passwordController,
+            obscureText: isPasswordVisible,
+            style: const TextStyle(color: Colors.black87),
             decoration: InputDecoration(
-                border: InputBorder.none,
-                contentPadding: EdgeInsets.only(top: 5),
-                prefixIcon: Icon(Icons.lock, color: Color(0xff5ac18e)),
-                hintText: 'Password',
-                hintStyle: TextStyle(color: Colors.black38)),
+              border: InputBorder.none,
+              contentPadding: const EdgeInsets.only(top: 5),
+              prefixIcon: const Icon(Icons.lock, color: Color(0xff5ac18e)),
+              hintText: 'Password',
+              hintStyle: const TextStyle(color: Colors.black38),
+              suffixIcon: IconButton(
+                icon: isPasswordVisible
+                    ? const Icon(Icons.visibility_off)
+                    : const Icon(Icons.visibility),
+                onPressed: () =>
+                    setState(() => isPasswordVisible = !isPasswordVisible),
+              ),
+            ),
           ),
         )
       ],
@@ -163,14 +182,19 @@ class _RegisterPageState extends State<RegisterPage> {
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(25))),
         onPressed: () {
+          _authService
+              .createPerson(_nameController.text, _surnameController.text,
+                  _emailController.text, _passwordController.text)
+              .then((value) {});
+
           Navigator.push(context,
               MaterialPageRoute(builder: (context) => const HomePage()));
         },
         child: const Text(
-          'CREATE ACCOUNT',
+          'REGISTER',
           style: TextStyle(
               color: Color.fromARGB(248, 255, 130, 5),
-              fontSize: 18,
+              fontSize: 22,
               fontWeight: FontWeight.w900),
         ),
       ),

@@ -1,8 +1,9 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:refika_app/home_page.dart';
 import 'package:refika_app/register_page.dart';
+import 'package:refika_app/reset_password.dart';
+import 'package:refika_app/service/auth.dart';
 
 class SigninPage extends StatefulWidget {
   const SigninPage({Key? key}) : super(key: key);
@@ -12,17 +13,12 @@ class SigninPage extends StatefulWidget {
 }
 
 class _SigninPageState extends State<SigninPage> {
-  late FirebaseAuth auth;
-  final String _email = 'mahmutcanekm@gmail.com';
-  final String _password = "refika12";
-
-  @override
-  void initState() {
-    super.initState();
-    auth = FirebaseAuth.instance;
-  }
+  final TextEditingController _emailController = TextEditingController();
+  final TextEditingController _passwordController = TextEditingController();
+  final AuthService _authService = AuthService();
 
   bool isRememberMe = false;
+  bool isPasswordVisible = false;
   Widget buildEmail() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -43,10 +39,11 @@ class _SigninPageState extends State<SigninPage> {
                     color: Colors.black26, blurRadius: 6, offset: Offset(0, 2))
               ]),
           height: 60,
-          child: const TextField(
+          child: TextField(
+            controller: _emailController,
             keyboardType: TextInputType.emailAddress,
-            style: TextStyle(color: Colors.black87),
-            decoration: InputDecoration(
+            style: const TextStyle(color: Colors.black87),
+            decoration: const InputDecoration(
                 border: InputBorder.none,
                 contentPadding: EdgeInsets.only(top: 14),
                 prefixIcon: Icon(Icons.email, color: Color(0xff5ac18e)),
@@ -78,15 +75,24 @@ class _SigninPageState extends State<SigninPage> {
                     color: Colors.black26, blurRadius: 6, offset: Offset(0, 2))
               ]),
           height: 60,
-          child: const TextField(
-            obscureText: true,
-            style: TextStyle(color: Colors.black87),
+          child: TextField(
+            obscureText: isPasswordVisible,
+            controller: _passwordController,
+            style: const TextStyle(color: Colors.black87),
             decoration: InputDecoration(
-                border: InputBorder.none,
-                contentPadding: EdgeInsets.only(top: 14),
-                prefixIcon: Icon(Icons.lock, color: Color(0xff5ac18e)),
-                hintText: 'Password',
-                hintStyle: TextStyle(color: Colors.black38)),
+              border: InputBorder.none,
+              contentPadding: const EdgeInsets.only(top: 14),
+              prefixIcon: const Icon(Icons.lock, color: Color(0xff5ac18e)),
+              hintText: 'Password',
+              hintStyle: const TextStyle(color: Colors.black38),
+              suffixIcon: IconButton(
+                icon: isPasswordVisible
+                    ? const Icon(Icons.visibility_off)
+                    : const Icon(Icons.visibility),
+                onPressed: () =>
+                    setState(() => isPasswordVisible = !isPasswordVisible),
+              ),
+            ),
           ),
         )
       ],
@@ -97,12 +103,15 @@ class _SigninPageState extends State<SigninPage> {
     return Container(
         alignment: Alignment.centerRight,
         child: TextButton(
-          onPressed: () => print("Forgot Password Pressed"),
           child: const Text(
             'Forgot Password?',
             style: TextStyle(
                 color: Colors.white, fontSize: 15, fontWeight: FontWeight.w900),
           ),
+          onPressed: () {
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => const ResetScreen()));
+          },
         ));
   }
 
@@ -169,6 +178,9 @@ class _SigninPageState extends State<SigninPage> {
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(25))),
         onPressed: () {
+          _authService
+              .signIn(_emailController.text, _passwordController.text)
+              .then((value) {});
           Navigator.push(context,
               MaterialPageRoute(builder: (context) => const HomePage()));
         },
@@ -234,12 +246,5 @@ class _SigninPageState extends State<SigninPage> {
             ],
           ),
         ));
-  }
-
-  void createUserEmailAndPasword() async {
-    var _userCredential = (await auth.createUserWithEmailAndPassword(
-        email: _email, password: _password));
-
-    print(_userCredential.toString());
   }
 }
