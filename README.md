@@ -174,10 +174,44 @@ Zoom, Discord, Mail, Whatsapp, Slack.
 **"Asana kullanılarak oluşturulan Ürün İş Listesi"**
 https://app.asana.com/0/1202248589829836/board
 
+![image](https://user-images.githubusercontent.com/104425709/169889780-e36a5a85-9e35-407a-8efe-93c621ae10c6.png)
 
 **"Daily Scrum Ekran Kayıtları"**
 
+![image](https://user-images.githubusercontent.com/104425709/169889994-9ae6629b-af81-45e7-bda5-62cf975295b7.png)
+![image](https://user-images.githubusercontent.com/104425709/169890002-c92c8325-a28a-4495-97f0-e2a7d2f21151.png)
+![image](https://user-images.githubusercontent.com/104425709/169890008-2e98e84b-b393-431e-96ac-5553f5f877c4.png)
+![image](https://user-images.githubusercontent.com/104425709/169890209-32fe7d08-79ba-4fc9-8d72-1d5b2bd0f9c4.png)
+
+
 **"Son Ürün Fotoğrafarı"**
+
+![image](https://user-images.githubusercontent.com/104425709/169892222-0153f381-d40d-4978-8c28-5fd611444b63.png)
+![image](https://user-images.githubusercontent.com/104425709/169894693-a50272d1-8bb3-49d8-a3da-d56b0b50a855.png)
+![image](https://user-images.githubusercontent.com/104425709/169892875-1f4335b6-7ed0-4ca5-af61-70e576b47ee7.png)
+![image](https://user-images.githubusercontent.com/104425709/169892746-31912d31-4b26-4a1c-ba33-54db637222d4.png)
+![image](https://user-images.githubusercontent.com/104425709/169894593-d70b07c3-cd2f-4245-a6e2-9d0cf0e516d1.png)
+![image](https://user-images.githubusercontent.com/104425709/169894829-1a31439d-9bd3-41c7-ad89-2eafebc01750.png)
+![image](https://user-images.githubusercontent.com/104425709/169893058-01608bd9-b539-4d78-9fa3-d56da899fc63.png)
+![image](https://user-images.githubusercontent.com/104425709/169893189-e7a461ba-ee35-4e6b-9fda-b6f366d64367.png)
+![image](https://user-images.githubusercontent.com/104425709/169893231-b08df9c7-578a-4334-8e25-daeb83569856.png)
+![image](https://user-images.githubusercontent.com/104425709/169893306-6f8ba590-4023-40bb-af29-a1b8100c648d.png)
+![image](https://user-images.githubusercontent.com/104425709/169895169-4df50faf-c748-4810-906f-92d9cfdcb446.png)
+![image](https://user-images.githubusercontent.com/104425709/169895187-54c2eba0-6648-404e-8005-971b10223856.png)
+![image](https://user-images.githubusercontent.com/104425709/169893540-3e10f69e-cbaf-44a3-b9ef-09765ced3c2a.png)
+![image](https://user-images.githubusercontent.com/104425709/169893637-f36e56c6-ed4f-4808-a103-fb3880fa59a6.png)
+![image](https://user-images.githubusercontent.com/104425709/169893684-f3e821d7-ea9f-4536-b73c-88de1638617f.png)
+![image](https://user-images.githubusercontent.com/104425709/169895290-4d3f94a5-c841-462f-9292-edac01b2fe4c.png)
+![WhatsApp Image 2022-05-23 at 21 41 21](https://user-images.githubusercontent.com/104425709/169894062-033e1e13-f86e-4f55-84a7-0f2c43d6a418.jpeg)
+![WhatsApp Image 2022-05-23 at 21 41 21 (1)](https://user-images.githubusercontent.com/104425709/169893997-4bc48519-6b76-41e6-b57e-8cf186b1c30f.jpeg)
+![WhatsApp Image 2022-05-23 at 21 41 21 (2)](https://user-images.githubusercontent.com/104425709/169894046-30d4141d-b6a8-45eb-b15e-38e3882ab6a1.jpeg)
+![WhatsApp Image 2022-05-23 at 21 41 21 (3)](https://user-images.githubusercontent.com/104425709/169894057-dee0d53e-2704-4f87-b3fb-df08c86b0bb6.jpeg)
+
+
+
+
+
+
 
 **Sprint Review:**
 
