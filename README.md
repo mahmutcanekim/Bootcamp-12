@@ -53,24 +53,29 @@ https://app.asana.com/0/1202248589829836/board
 User Story'ler product backlog'un içerisine eklenemiştir: 
 
 
-
-**Sprint notları:**
-
-Miro kullanılarak her takım üyesinden bir problem tespit etmesi istendi. Ortaklaşılan problem belirlendi. Problemin muhtemel ortak noktaları listelendi. Bulunan ortak sorun üzerinden çözümler geliştirildi. Geliştirilen fikir ve çözümlerin doğrulama süreçleri için yaklaşık 500'den fazla kişiyle anket yapıldı. Anketler sonucunda ilgi kümeleri oluşturuldu. Anket sonuçlarındaki açık uçlu sorulara verilen cevaplar bir excelde incelenerek en çok problem ve talebin nerde olduğu belirlendi. Bu şekilde empati haritası da çıkarıldı. Ortaya çıkan bulgulardan da çeşitli ve detaylı persona analizleri oluşturuldu. En sonunda doğrulanan problemler ve çözümler de detaylandırılarak girişim fikrimizin cümleye aktarılma süreci tamamlandı.
-Bu sürecin ardından başta problem, çözüm ve rakip bölümleri olmak üzere yalın kanvas doldurulmaya başlandı. Sonraki daily sprinte kadar rakip uygulamalar test edildi. İkinci yalın kanvas toplantısında gelir modeli ve maliyetler de belirlendi ve yalın kanvas tamamlandı. Yalın kanvas proje detayları göz önünde bulundurularak developers road map oluşturuldu (02.05.22). 3 Mayıs ve 4 Mayıs UI tasarımları yapıldı ve tasarımlar tartışıldı. Developer kanadında yol haritası  güncellendi. 5 Mayıs ve 6 Mayıs uygulamanın UI tasarım üzerinden kodları yazıldı.  
-
-
-**Tahmin edilen tamamlanacak puan**: 108 puan 
+**Tahmin edilen tamamlanacak puan**: 219 puan 
 
 **İlk Sprintte Tamamladığımız Puan**: 27 puan
+
+**İkinci Sprintte Tamamladığımız Puan**: 73 puan
+
+
 
 **Tahmin mantığı:** Asana Product Backlog'da puanlama kriterleri detaylı olarak belirtilmiştir.https://app.asana.com/0/1202248589829836/board 
 
 Genel hatlarıyla puanlama;
--eşleşme kriterleri (62 puan)- 
--kullanıcı/veri güvenliği (19 puan)-
--uygulamanın tasarımı (14 puan)-
--uygulamanın diğer platformlarla etkileşimi (13 puan)-
+-eşleşme kriterleri (65 puan)- 
+-kullanıcı/veri güvenliği (61 puan)-
+-uygulamanın tasarımı (48 puan)-
+-uygulamanın diğer platformlarla etkileşimi (45 puan)-
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+**1.Sprint Notları**
+
+Miro kullanılarak her takım üyesinden bir problem tespit etmesi istendi. Ortaklaşılan problem belirlendi. Problemin muhtemel ortak noktaları listelendi. Bulunan ortak sorun üzerinden çözümler geliştirildi. Geliştirilen fikir ve çözümlerin doğrulama süreçleri için yaklaşık 500'den fazla kişiyle anket yapıldı. Anketler sonucunda ilgi kümeleri oluşturuldu. Anket sonuçlarındaki açık uçlu sorulara verilen cevaplar bir excelde incelenerek en çok problem ve talebin nerde olduğu belirlendi. Bu şekilde empati haritası da çıkarıldı. Ortaya çıkan bulgulardan da çeşitli ve detaylı persona analizleri oluşturuldu. En sonunda doğrulanan problemler ve çözümler de detaylandırılarak girişim fikrimizin cümleye aktarılma süreci tamamlandı.
+Bu sürecin ardından başta problem, çözüm ve rakip bölümleri olmak üzere yalın kanvas doldurulmaya başlandı. Sonraki daily sprinte kadar rakip uygulamalar test edildi. İkinci yalın kanvas toplantısında gelir modeli ve maliyetler de belirlendi ve yalın kanvas tamamlandı. Yalın kanvas proje detayları göz önünde bulundurularak developers road map oluşturuldu (02.05.22). 3 Mayıs ve 4 Mayıs UI tasarımları yapıldı ve tasarımlar tartışıldı. Developer kanadında yol haritası  güncellendi. 5 Mayıs ve 6 Mayıs uygulamanın UI tasarım üzerinden kodları yazıldı.  
+
 
 
 **"Asana kullanılarak oluşturulan Ürün İş Listesi"**
@@ -161,8 +166,55 @@ Figma, ProtoPie.
 Zoom, Discord, Mail, Whatsapp, Slack.
 
 
+-------------------------------------------------------------------------------------
+
+**2.Sprint Notları**
+
+ (09.05.2022) Miro kullanılarak 2 sprint hedefleri detaylandırıldı ve zamanlandı. Product Owner tarafından Product Backlog güncellendi. Daily sprint saatleri belirlendi ve onaylandı. (11.05.2022) 2.sprint için gerçekleşen buluşma ekip ile birlikte izlenilip not alındı. (12.05.2022) Uygulamada kullanılacak arayüz tasarımları için, farklı bağlantılarla üye girişi için ve sohbet ekranının algoritması üzerine ekip üyeleri eğitimler izledi. (13.05.2022) Eşleşme özelliği için yeterli alt yapının olmadığı kararına varıldı. 2.sprint hedeflerinden “eşleşme özelliği” kaldırıldı ve 3.sprinte taşındı. (16.05.2022) Alınan emülatör hataları tartışıldı. Rakip uygulama arayüzleri incelendi. UI tasarımı ekipçe tartışıldı. (17.05.2022) Firebase’e bağlanma da sorun yaşanıldığı için ekip çözüm aradı. (20.05.2022) 3.sprintte yer alan “kullanıcıya hoş geldin e-postası atma” özellikleri 2.sprinte alındı. (22.05.2022) Sprint Retrospective yapıldı ve 2.sprint kapatıldı.
+
+**"Asana kullanılarak oluşturulan Ürün İş Listesi"**
+https://app.asana.com/0/1202248589829836/board
 
 
+**"Daily Scrum Ekran Kayıtları"**
+
+**"Son Ürün Fotoğrafarı"**
+
+**Sprint Review:**
+
+Çıkan ürünün sohbet kısmında birkaç hata görülmüştür. E-posta ile giriş ekranı düzgün çalışmaktadır. Road map’de hedeflenen yerin biraz gerisinde olduğumuz görülmüştür. Product Backlog kalan bootcamp zamanı düşünülerek güncellenmiştir. Ek olarak 3.sprintte yapılması ön görülen hoş geldin maili atmak için gerekli araştırmalar yapılmıştır. Eşleşme ekranı için ve eşleşme algoritması için ekip üyelerinin daha verimli çalışması gerektiğine karar verilmiştir. Alınan hataların çözümünün 2.sprintte daha kolay hale gelmesi yol haritamız açısından oldukça verimli olmuştur. Gelecek ve son olan sprintte “kullanıcıları eşleştirme” ve “eşleştirme filtreleme” üzerine yoğunlaşılmasına karar verilmiştir. Sprint review katılımcıları: Mahmutcan Ekim, Zeynep Elif Demirel, Ömer Faruk Yazıcı, Meryem Reyhan Dereköy.
+
+
+**Sprint Retrospective:**
+
+3.sprint için Product backlog ve ASANA kullanılarak görevlendirmeler yapıldı. Herkesin sorumluluklarını öğrenmesi amaçlandı. Hedef tarihler ve tarihiler için içerikler belirtildi. 
+
+Ekip eğitim üzerinden biraz süre geçtiği için eğitimleri tekrar etmek zorunda kaldı. Bu ekibimize zaman kaybettirdi. Ayrıca bilgisayarlardan kaynaklanan aksaklıklar sürecin gerisinde kalmamıza sebep olmuş olsa da hedeflerin sırası değiştirilerek bu problemler çözülmeye çalışıldı.
+
+3.sprintte yapılması planlanan bazı basamaklar erkene çekildi ve başarıyla tamamlandı. Ancak yapılması öngörülen “eşleşme algoritması” hazırlanamadı. İş listesinin hedeflerine uyulmadığından iş listesi güncellendi. Belirli işler ertelendi. Bazıları ise öne çekildi. 3.sprint sonunda ürünün istenilen noktaya gelmesi hedefleniyor. 
+
+3.sprintte güvenlik eksikleri üzerine gidilecek. Algoritmalar geliştirilecek. Eklenen animasyonlar, veri işleme ve sohbet kısımlarının sorunsuz olarak çalışması hedefleniyor.
+
+**Diğer notlar:**
+
+Yeni eklenen animasyonların tasarımları tekrar ekip ile değerlendirilecek. 
+
+Uygulamada topluluk haritaları ile ilgi alanlarını ortaklaştırdığımız kısımlar detaylandırılacak.
+İşlev ve tasarım kısmı üzerinde kesin fikirlere varılmalı. Güvenlik kısmında kütüphane eklemek ve firebase oluşturmak önümüzdeki engeller. Yüz tanıma ve doğrulama e-postası atma özellikler derince araştırılacak.
+
+3. sprint bitmeden tüm takım üyeleri uygulamayı indirip kullanacak. 
+
+
+**Proje Yönetiminde kullanılan araçlar:** 
+Cizio, Trello, Miro, Notion, Asana, Surveymonkey.
+
+
+**UI tasarımında kullanılan araçlar:**
+Figma, ProtoPie.
+
+
+**İletişimde kullanılan araçlar:** 
+Zoom, Discord, Mail, Whatsapp, Slack.
 
 
 
