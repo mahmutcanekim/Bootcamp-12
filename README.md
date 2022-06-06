@@ -294,7 +294,9 @@ Zoom, Discord, Mail, Whatsapp, Slack.
 
 **Sprint Review:**
 
-Çıkan ürünün hedefe göre eksiklerinin olduğuna karar verilmiştir. Ekibin okul/iş yoğunluklarından dolayı istenilen noktaya gelinemedi. Ürünün son özelliklerinin birleştirilmesi için çalışmalar eksik kaldı. Ekip üyesi eksikliğinden kaynaklanan problemlerden dolayı uygulama kodu istenilen noktaya ulaşamadı. Hedeflenen ürün özelliklerinin BootCamp sonrasında da geliştirilmesi ve ürünün son teslim tarihine kadar eksiklerinin tamamlanması hedefleniyor. Sprint review katılımcıları: Mahmutcan Ekim, Zeynep Elif Demirel, Ömer Faruk Yazıcı, Meryem Reyhan Dereköy.
+Çıkan ürünün hedefe göre eksiklerinin olduğuna karar verilmiştir. Ekibin okul/iş yoğunluklarından dolayı istenilen noktaya gelinemedi. Ürünün son özelliklerinin birleştirilmesi için çalışmalar eksik kaldı. Ekip üyesi eksikliğinden kaynaklanan problemlerden dolayı uygulama kodu istenilen noktaya ulaşamadı. Hedeflenen ürün özelliklerinin BootCamp sonrasında da geliştirilmesi ve ürünün son teslim tarihine kadar eksiklerinin tamamlanması hedefleniyor. 
+Koda dökülemeyen bazı ekranlar Figma'da tasarlandığı halleriyle ekran kayıtları alınarak uygulamada gösterebilmek amaçlı görseller olarak yüklendi. Bu ekranlar sırasıyla: profil ekranı, location map, interest map, match ve örnek etkinlik ekranıdır. 
+Sprint review katılımcıları: Mahmutcan Ekim, Zeynep Elif Demirel, Ömer Faruk Yazıcı, Meryem Reyhan Dereköy.
 
 
 **Sprint Retrospective:**
