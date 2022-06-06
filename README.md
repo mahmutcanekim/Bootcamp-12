@@ -42,7 +42,7 @@ refikA, 15-18, 18-25, 25-30 ve 30+ olarak belirlenen yaş gruplarındaki bireyle
 
 25-30: Eğitim hayatı devam eden, yeni bitmiş ya da çalışma hayatı başlamış gençler
 
-30+: Hayat tarzı belli bir düzene oluşturmuş, sosyal hayatları eskisi kadar cıvıl cvıl olmayan yetişkinler
+30+:   Hayat tarzı belli bir düzene oluşturmuş, sosyal hayatları eskisi kadar cıvıl cvıl olmayan yetişkinler
 
 
 
