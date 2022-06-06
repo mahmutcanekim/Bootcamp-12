@@ -286,9 +286,18 @@ Zoom, Discord, Mail, Whatsapp, Slack.
 ![image](https://user-images.githubusercontent.com/104423064/172237590-f820a7a1-e139-481b-9a97-b99b40aa3acf.png)
 ![image](https://user-images.githubusercontent.com/104423064/172237700-64c4a6f0-530b-4531-989f-e91683a5a6b9.png)
 ![image](https://user-images.githubusercontent.com/104423064/172237776-bff4494d-baec-4c27-b434-725867c55fe6.png)
-![image](https://user-images.githubusercontent.com/104423064/172238156-48b859ce-248c-46af-979b-7596caeb083c.png)
-![image](https://user-images.githubusercontent.com/104423064/172237858-fc8da6df-b311-4a26-b2a7-8826e90384d6.png)
-![image](https://user-images.githubusercontent.com/104423064/172237866-72bf05ae-7b9c-41cb-a208-6e673f3fb6e8.png)
+![location](https://user-images.githubusercontent.com/104423064/172245357-37ca43ef-c47a-4546-8104-3a479151ab17.jpeg)
+
+**Ek olarak tasarlanan ama koda dökülemeyen ekranlar:**
+
+Profil Ekranı
+
+![My Profile](https://user-images.githubusercontent.com/104423064/172245542-221c8638-53bb-4653-b366-6c5f48a77340.png)
+
+Etkinlik Ekranı:
+
+![Örnek Etkinlik Ekranı](https://user-images.githubusercontent.com/104423064/172245554-e18d5488-1c25-4b08-944c-edc396534e58.png)
+
 
 
 
