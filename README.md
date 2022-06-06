@@ -287,7 +287,9 @@ Zoom, Discord, Mail, Whatsapp, Slack.
 ![image](https://user-images.githubusercontent.com/104425709/172247945-4c7b2384-cf58-4e4e-a0cf-48e97de34f7c.png)
 ![image](https://user-images.githubusercontent.com/104423064/172237700-64c4a6f0-530b-4531-989f-e91683a5a6b9.png)
 ![image](https://user-images.githubusercontent.com/104423064/172237776-bff4494d-baec-4c27-b434-725867c55fe6.png)
-![location](https://user-images.githubusercontent.com/104423064/172245357-37ca43ef-c47a-4546-8104-3a479151ab17.jpeg)
+![image](https://user-images.githubusercontent.com/104423064/172249105-68b74890-3c28-464c-acc7-acaeb3576be7.png)
+![image](https://user-images.githubusercontent.com/104423064/172249119-c834df0d-7b5a-45d6-aac6-4841bf4de4cf.png)
+
 
 
 **Tasarımı tamamlanan, koda dönüşme aşamasındaki ekranlar:**
