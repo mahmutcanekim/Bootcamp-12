@@ -290,6 +290,19 @@ Zoom, Discord, Mail, Whatsapp, Slack.
 ![location](https://user-images.githubusercontent.com/104423064/172245357-37ca43ef-c47a-4546-8104-3a479151ab17.jpeg)
 
 
+**Tasarımı tamamlanan, koda dönüşme aşamasındaki ekranlar:**
+
+Profil:
+
+![image](https://user-images.githubusercontent.com/104423064/172248364-ccdc4a1d-84b7-403e-925d-5990236cc1d1.png)
+
+Örnek Etkinlik:
+
+![Örnek Etkinlik Ekranı](https://user-images.githubusercontent.com/104423064/172248397-52e88582-4ca4-437a-a0e6-2741187716c2.png)
+
+
+
+
 
 **Sprint Review:**
 
