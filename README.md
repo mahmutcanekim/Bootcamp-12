@@ -250,6 +250,62 @@ Figma, ProtoPie.
 Zoom, Discord, Mail, Whatsapp, Slack.
 
 
+------------------------------------------------------------------------------------
+
+**3.Sprint Notları**
+
+2.Sprintte karşımıza çıkan hataları çözmeye çalışıldı (24.05.22). Developer’lar ürünün farklı özelliklerinin kodlarını birleştirmeye çalıştı (26.05.22). Uygulamanın nasıl geliştirileceği konusunda görüşmeler yapıldı (28.05.22). BootCamp’de istenilen noktaya gelip/gelinmediği tartışıldı (31.05.22). Öz değerlendirmeler ve retrospective yapıldı. Product Backlog’da istenilen ama yapılamayan özellikler belirtildi. Eksik puanların sebebi araştırıldı. Uygulamanın gelecekteki kullanıcı arayüzünün detayları konuşuldu. Farklı özelliklerin eklenmesi için gerekliliklere karar verildi. Yapılan persona analizinden yola çıkarak hangi sorunların çözüme ulaştığı ve hangilerinde eksikler olduğu araştırıldı. 
+
+
+**"Asana kullanılarak oluşturulan Ürün İş Listesi"**
+
+![image](https://user-images.githubusercontent.com/104425709/167328739-811f4d99-c052-44fa-89cf-fb37710f23ba.png)
+
+
+**"Son Ürün Fotoğrafarı"**
+
+
+
+**Sprint Review:**
+
+Çıkan ürünün hedefe göre eksiklerinin olduğuna karar verilmiştir. Ekibin okul/iş yoğunluklarından dolayı istenilen noktaya gelinemedi. Ürünün son özelliklerinin birleştirilmesi için çalışmalar eksik kaldı. Ekip üyesi eksikliğinden kaynaklanan problemlerden dolayı uygulama kodu istenilen noktaya ulaşamadı. Hedeflenen ürün özelliklerinin BootCamp sonrasında da geliştirilmesi ve ürünün son teslim tarihine kadar eksiklerinin tamamlanması hedefleniyor. Sprint review katılımcıları: Mahmutcan Ekim, Zeynep Elif Demirel, Ömer Faruk Yazıcı, Meryem Reyhan Dereköy.
+
+
+**Sprint Retrospective:**
+
+ Daily scrum’ların zamanları belirtilen vakitlerde yapıldı ve herkese uygun saatler sabitlendi. Bu sayede günlük toplantıların saati belirlenmiş oldu.
+
+Meeting uygulamaları etkili şekilde kullanıldı. (Zoom ve Discord)
+
+Takım üyeleri uygun vakitlerini ve günlerini açıkça belirtti. Bu sayede ciddi ilerlemeler kaydedebildik. Ancak deneyimsizliğimizden kaynaklanan bazı problemlerin üstesinden gelemedik. 
+
+İlk sprintte ekipten ansızın ayrılan takım arkadaşımızın boşluğunu dolduramadık. Hedeflediğimiz özelliklere ulaşmamamızda en büyük etkenlerden biri bu oldu.
+
+Yakınlaşan sınavlar, ödev yükümlülükleri tüm ekibi oldukça süreçten ayırdı. İstemsizce kimse hedeflediği vakti ayıramadı.
+
+Gelişim aşamasında; 
+Hedeflenen eşleşme kısımları geliştirilmeli. Harita ara yüzü eklenmeli. 
+
+
+**Diğer notlar:**
+
+Persona analizi notlarıyla uygulamaya kişisellik kazandırılmaya çalışıldı. Profil kısımları oluşturuldu. Bu sayede kullanıcıların kendi özetlerini (konuştukları kişileri, güncel ilgi alanlarını) görebilecekleri bir arayüz oluşmuş oldu.
+
+Road Map’ler esnetildi. Ancak zaman kısıtlarından dolayı bazı detaylar daha uzun süreçte çözümlenebilecek. 
+
+**Proje Yönetiminde kullanılan araçlar:** 
+Cizio, Trello, Miro, Notion, Asana, Surveymonkey.
+
+
+**UI tasarımında kullanılan araçlar:**
+Figma, ProtoPie.
+
+
+**İletişimde kullanılan araçlar:** 
+Zoom, Discord, Mail, Whatsapp, Slack.
+
+
+
 
 
 
