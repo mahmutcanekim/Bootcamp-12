@@ -50,10 +50,10 @@ refikA, 15-18, 18-25, 25-30 ve 30+ olarak belirlenen yaş gruplarındaki bireyle
 
 https://app.asana.com/0/1202248589829836/board
 
-User Story'ler product backlog'un içerisine eklenemiştir: 
+User Story'ler product backlog'un içerisine eklenemiştir (ASANA'da 30 günlük premium deneme süresi bittiği için parantez içinde 3.sprint puanları yazılmıştır. 1. ve 2. sprintlere ait puanlamanın değerlendirildiği gözönünde tutularak puanlar tekrar yazılmamıştır. )
 
 
-**Tahmin edilen tamamlanacak puan**: 219 puan 
+**Tahmin edilen tamamlanacak puan**: 226 puan 
 
 **İlk Sprintte Tamamladığımız Puan**: 27 puan
 
@@ -63,7 +63,7 @@ User Story'ler product backlog'un içerisine eklenemiştir:
 
 **Tüm Sprintlerde Tamamlanan Puan** : 119 puan 
 
---eksik kalan 100 puan vardır. Bu özellikler BootCamp'den sonra tamamlanmaya çalışılacaktır.
+--eksik kalan 107 puan vardır. Bu özellikler BootCamp'den sonra tamamlanmaya çalışılacaktır.
 
 
 
@@ -71,9 +71,9 @@ User Story'ler product backlog'un içerisine eklenemiştir:
 
 Genel hatlarıyla puanlama;
 -eşleşme kriterleri (65 puan)- 
--kullanıcı/veri güvenliği (61 puan)-
--uygulamanın tasarımı (48 puan)-
--uygulamanın diğer platformlarla etkileşimi (45 puan)-
+-kullanıcı/veri güvenliği (62 puan)-
+-uygulamanın tasarımı (51 puan)-
+-uygulamanın diğer platformlarla etkileşimi (48 puan)-
 
 
 --------------------------------------------------------------------------------------------------------------------------------
