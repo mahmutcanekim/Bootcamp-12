@@ -206,10 +206,10 @@ https://app.asana.com/0/1202248589829836/board
 ![image](https://user-images.githubusercontent.com/104425709/169893637-f36e56c6-ed4f-4808-a103-fb3880fa59a6.png)
 ![image](https://user-images.githubusercontent.com/104425709/169893684-f3e821d7-ea9f-4536-b73c-88de1638617f.png)
 ![image](https://user-images.githubusercontent.com/104425709/169895290-4d3f94a5-c841-462f-9292-edac01b2fe4c.png)
-![WhatsApp Image 2022-05-23 at 21 41 21](https://user-images.githubusercontent.com/104425709/169894062-033e1e13-f86e-4f55-84a7-0f2c43d6a418.jpeg)
-![WhatsApp Image 2022-05-23 at 21 41 21 (1)](https://user-images.githubusercontent.com/104425709/169893997-4bc48519-6b76-41e6-b57e-8cf186b1c30f.jpeg)
-![WhatsApp Image 2022-05-23 at 21 41 21 (2)](https://user-images.githubusercontent.com/104425709/169894046-30d4141d-b6a8-45eb-b15e-38e3882ab6a1.jpeg)
-![WhatsApp Image 2022-05-23 at 21 41 21 (3)](https://user-images.githubusercontent.com/104425709/169894057-dee0d53e-2704-4f87-b3fb-df08c86b0bb6.jpeg)
+![image](https://user-images.githubusercontent.com/104425709/172247473-b73d25a3-97f2-480d-9821-6f517b392f4e.png)
+![image](https://user-images.githubusercontent.com/104425709/172247485-57b6e444-0ad0-4aa0-8dab-3a2eb100cf2f.png)
+![image](https://user-images.githubusercontent.com/104425709/172247506-728a1104-ea62-4797-8405-99f9d99b9169.png)
+
 
 
 
@@ -283,21 +283,11 @@ Zoom, Discord, Mail, Whatsapp, Slack.
 ![image](https://user-images.githubusercontent.com/104425709/169893540-3e10f69e-cbaf-44a3-b9ef-09765ced3c2a.png)
 ![image](https://user-images.githubusercontent.com/104425709/169893637-f36e56c6-ed4f-4808-a103-fb3880fa59a6.png)
 ![image](https://user-images.githubusercontent.com/104425709/169893684-f3e821d7-ea9f-4536-b73c-88de1638617f.png)
-![image](https://user-images.githubusercontent.com/104423064/172237590-f820a7a1-e139-481b-9a97-b99b40aa3acf.png)
+![image](https://user-images.githubusercontent.com/104425709/172247924-53923f9d-a87a-40e2-9a43-fdc2ce3288cb.png)
+![image](https://user-images.githubusercontent.com/104425709/172247945-4c7b2384-cf58-4e4e-a0cf-48e97de34f7c.png)
 ![image](https://user-images.githubusercontent.com/104423064/172237700-64c4a6f0-530b-4531-989f-e91683a5a6b9.png)
 ![image](https://user-images.githubusercontent.com/104423064/172237776-bff4494d-baec-4c27-b434-725867c55fe6.png)
 ![location](https://user-images.githubusercontent.com/104423064/172245357-37ca43ef-c47a-4546-8104-3a479151ab17.jpeg)
-![match](https://user-images.githubusercontent.com/104423064/172245857-05a48008-8789-4c67-9760-11740d60793a.jpeg)
-![intr](https://user-images.githubusercontent.com/104423064/172245882-a64e9f3c-c905-4e38-ae03-5ad6b36ca452.jpeg)
-
-
-**Ek olarak tasarlanan ama koda dökülemeyen ekranlar:**
-
-Profil Ekranı
-![profile](https://user-images.githubusercontent.com/104423064/172246984-b8e35681-2f90-4f00-b3fe-fa1f73815d26.png) 
-
-Etkinlik Ekranı:
-![Etkinlik](https://user-images.githubusercontent.com/104423064/172245554-e18d5488-1c25-4b08-944c-edc396534e58.png)
 
 
 
