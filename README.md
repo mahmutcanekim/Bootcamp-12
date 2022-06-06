@@ -67,14 +67,6 @@ User Story'ler product backlog'un içerisine eklenemiştir (ASANA'da 30 günlük
 
 
 
-**Tahmin mantığı:** Asana Product Backlog'da puanlama kriterleri detaylı olarak belirtilmiştir.https://app.asana.com/0/1202248589829836/board 
-
-Genel hatlarıyla puanlama;
--eşleşme kriterleri (65 puan)- 
--kullanıcı/veri güvenliği (62 puan)-
--uygulamanın tasarımı (51 puan)-
--uygulamanın diğer platformlarla etkileşimi (48 puan)-
-
 
 --------------------------------------------------------------------------------------------------------------------------------
 **1.Sprint Notları**
