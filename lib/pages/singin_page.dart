@@ -1,93 +1,28 @@
+import 'package:refika_app/firebase_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:refika_app/home_page.dart';
+import 'package:refika_app/pages/home_page.dart';
+import 'package:refika_app/pages/register_page.dart';
+import 'package:refika_app/pages/reset_password.dart';
 import 'package:refika_app/service/auth.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
-class RegisterPage extends StatefulWidget {
-  const RegisterPage({Key? key}) : super(key: key);
+class SigninPage extends StatefulWidget {
+  const SigninPage({Key? key}) : super(key: key);
 
   @override
-  _RegisterPageState createState() => _RegisterPageState();
+  _SigninPageState createState() => _SigninPageState();
 }
 
-class _RegisterPageState extends State<RegisterPage> {
-  final TextEditingController _nameController = TextEditingController();
-  final TextEditingController _surnameController = TextEditingController();
+class _SigninPageState extends State<SigninPage> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
   final AuthService _authService = AuthService();
 
+  Service service = Service();
+
+  bool isRememberMe = false;
   bool isPasswordVisible = false;
-
-  Widget buildName() {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: <Widget>[
-        const Text(
-          'Name',
-          style: TextStyle(
-              color: Colors.white, fontSize: 18, fontWeight: FontWeight.w900),
-        ),
-        const SizedBox(height: 10),
-        Container(
-          alignment: Alignment.centerLeft,
-          decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.circular(10),
-              boxShadow: const [
-                BoxShadow(
-                    color: Colors.black26, blurRadius: 6, offset: Offset(0, 2))
-              ]),
-          height: 40,
-          child: TextField(
-            controller: _nameController,
-            keyboardType: TextInputType.name,
-            style: const TextStyle(color: Colors.black87),
-            decoration: const InputDecoration(
-                border: InputBorder.none,
-                contentPadding: EdgeInsets.only(bottom: 5, left: 5),
-                hintText: 'First Name',
-                hintStyle: TextStyle(color: Colors.black38)),
-          ),
-        )
-      ],
-    );
-  }
-
-  Widget buildSurname() {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: <Widget>[
-        const Text(
-          'Surname',
-          style: TextStyle(
-              color: Colors.white, fontSize: 18, fontWeight: FontWeight.w900),
-        ),
-        const SizedBox(height: 10),
-        Container(
-          alignment: Alignment.centerLeft,
-          decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.circular(10),
-              boxShadow: const [
-                BoxShadow(
-                    color: Colors.black26, blurRadius: 6, offset: Offset(0, 2))
-              ]),
-          height: 40,
-          child: TextField(
-            controller: _surnameController,
-            keyboardType: TextInputType.name,
-            style: const TextStyle(color: Colors.black87),
-            decoration: const InputDecoration(
-                border: InputBorder.none,
-                contentPadding: EdgeInsets.only(bottom: 5, left: 5),
-                hintText: 'Last Name',
-                hintStyle: TextStyle(color: Colors.black38)),
-          ),
-        )
-      ],
-    );
-  }
 
   Widget buildEmail() {
     return Column(
@@ -108,16 +43,16 @@ class _RegisterPageState extends State<RegisterPage> {
                 BoxShadow(
                     color: Colors.black26, blurRadius: 6, offset: Offset(0, 2))
               ]),
-          height: 40,
+          height: 60,
           child: TextField(
             controller: _emailController,
             keyboardType: TextInputType.emailAddress,
             style: const TextStyle(color: Colors.black87),
             decoration: const InputDecoration(
                 border: InputBorder.none,
-                contentPadding: EdgeInsets.only(top: 5),
+                contentPadding: EdgeInsets.only(top: 14),
                 prefixIcon: Icon(Icons.email, color: Color(0xff5ac18e)),
-                hintText: '@nameexample.com',
+                hintText: 'Email',
                 hintStyle: TextStyle(color: Colors.black38)),
           ),
         )
@@ -144,14 +79,14 @@ class _RegisterPageState extends State<RegisterPage> {
                 BoxShadow(
                     color: Colors.black26, blurRadius: 6, offset: Offset(0, 2))
               ]),
-          height: 40,
+          height: 60,
           child: TextField(
-            controller: _passwordController,
             obscureText: isPasswordVisible,
+            controller: _passwordController,
             style: const TextStyle(color: Colors.black87),
             decoration: InputDecoration(
               border: InputBorder.none,
-              contentPadding: const EdgeInsets.only(top: 5),
+              contentPadding: const EdgeInsets.only(top: 14),
               prefixIcon: const Icon(Icons.lock, color: Color(0xff5ac18e)),
               hintText: 'Password',
               hintStyle: const TextStyle(color: Colors.black38),
@@ -169,32 +104,112 @@ class _RegisterPageState extends State<RegisterPage> {
     );
   }
 
+  Widget buildForgotPassBtn() {
+    return Container(
+        alignment: Alignment.centerRight,
+        child: TextButton(
+          child: const Text(
+            'Forgot Password?',
+            style: TextStyle(
+                color: Colors.white, fontSize: 15, fontWeight: FontWeight.w900),
+          ),
+          onPressed: () {
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => const ResetScreen()));
+          },
+        ));
+  }
+
+  Widget buildRememberBtn() {
+    return SizedBox(
+      height: 20,
+      child: Row(
+        children: <Widget>[
+          Theme(
+            data: ThemeData(unselectedWidgetColor: Colors.white),
+            child: Checkbox(
+              value: isRememberMe,
+              checkColor: Colors.white,
+              activeColor: Colors.green,
+              onChanged: (value) {
+                setState(() {
+                  isRememberMe = value!;
+                });
+              },
+            ),
+          ),
+          const Text('Remember Me',
+              style: TextStyle(
+                  color: Colors.white70,
+                  fontSize: 15,
+                  fontWeight: FontWeight.w900))
+        ],
+      ),
+    );
+  }
+
+  Widget buildSignUpBtn() {
+    return GestureDetector(
+      onTap: () {
+        Navigator.push(context,
+            MaterialPageRoute(builder: (context) => const RegisterPage()));
+      },
+      child: RichText(
+          text: const TextSpan(children: [
+        TextSpan(
+            text: 'Don\'t have an Account?',
+            style: TextStyle(
+                color: Colors.white,
+                fontSize: 20,
+                fontWeight: FontWeight.w900)),
+        TextSpan(
+            text: ' Sign Up',
+            style: TextStyle(
+                color: Colors.white, fontSize: 20, fontWeight: FontWeight.w900))
+      ])),
+    );
+  }
+
   Widget buildLoginBtn() {
     return SizedBox(
-      height: 50,
+      height: 60,
       width: double.infinity,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
             primary: Colors.white,
             onPrimary: Colors.white,
             elevation: 5,
-            padding: const EdgeInsets.all(5),
+            padding: const EdgeInsets.all(15),
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(25))),
-        onPressed: () {
-          _authService
-              .createPerson(_nameController.text, _surnameController.text,
-                  _emailController.text, _passwordController.text)
-              .then((value) {});
+        onPressed: () async {
+          SharedPreferences pref = await SharedPreferences.getInstance();
+          if (_emailController.text.toString().isNotEmpty &&
+                  _passwordController.text.toString().isNotEmpty ||
+              _passwordController != null && _emailController != null) {
+            // Boş ise girmeyecek
+            service.loginUser(context, _emailController.text.toString(),
+                _passwordController.text.toString());
 
-          Navigator.push(context,
-              MaterialPageRoute(builder: (context) => const HomePage()));
+// Burası email kayıtlı emailse anasayfaya yollayacak değilse de giriş ekranına yollayacak
+
+            pref.setString("email", _emailController.text.toString());
+          } else if (_passwordController != null) {
+            _authService
+                .signIn(_emailController.text, _passwordController.text)
+                .then((value) {});
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => const HomePage()));
+          } else {
+            service.errorBox(context,
+                "Fields must not empty please valid email and password");
+          }
         },
         child: const Text(
-          'REGISTER',
+          'LOGIN',
           style: TextStyle(
-              color: Color.fromARGB(248, 255, 130, 5),
-              fontSize: 22,
+              color: Color(0xff5ac18e),
+              fontSize: 18,
               fontWeight: FontWeight.w900),
         ),
       ),
@@ -228,23 +243,24 @@ class _RegisterPageState extends State<RegisterPage> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     const Text(
-                      'Sign Up',
+                      'Sign In',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 40,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    const SizedBox(height: 5),
-                    buildName(),
-                    const SizedBox(height: 5),
-                    buildSurname(),
-                    const SizedBox(height: 5),
+                    const SizedBox(height: 10),
                     buildEmail(),
-                    const SizedBox(height: 5),
+                    const SizedBox(height: 10),
                     buildPassword(),
-                    const SizedBox(height: 20),
+                    const SizedBox(height: 10),
+                    buildForgotPassBtn(),
+                    buildRememberBtn(),
+                    const SizedBox(height: 10),
                     buildLoginBtn(),
+                    const SizedBox(height: 10),
+                    buildSignUpBtn(),
                   ],
                 ),
               ),

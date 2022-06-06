@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:refika_app/register_page.dart';
+import 'package:refika_app/pages/register_page.dart';
 import 'package:refika_app/service/google_sign_in.dart';
-import 'package:refika_app/singin_page.dart';
-
+import 'package:refika_app/pages/singin_page.dart';
 import 'home_page.dart';
 
 class LoginPage extends StatefulWidget {
@@ -19,64 +18,34 @@ class _LoginPageState extends State<LoginPage> {
 
   Widget googleSignIn() {
     return SizedBox(
-      height: 50,
-      width: 50,
-      child: RawMaterialButton(
-        elevation: 2.0,
-        fillColor: Colors.white,
-        child: FaIcon(
+      height: 60,
+      width: double.infinity,
+      child: ElevatedButton.icon(
+        style: ElevatedButton.styleFrom(
+            primary: Colors.white,
+            onPrimary: Colors.red,
+            elevation: 5,
+            padding: const EdgeInsets.all(15),
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(25))),
+        icon: FaIcon(
           FontAwesomeIcons.google,
           color: Colors.red.shade900,
-          size: 35.0,
         ),
-        padding: const EdgeInsets.all(5.0),
-        shape: const RoundedRectangleBorder(
-            borderRadius: BorderRadius.all(Radius.circular(50))),
+        label: const Text(
+          'SIGN UP WITH GOOGLE',
+          style: TextStyle(
+              color: Colors.red, fontSize: 18, fontWeight: FontWeight.w900),
+        ),
         onPressed: () async {
           var data = await GoogleSignHelper.instance.signIn();
           if (data != null) {
             var userData = await GoogleSignHelper.instance.firebaseSignin();
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => const HomePage()));
           }
         },
       ),
-    );
-  }
-
-  Widget facebookSignIn() {
-    return SizedBox(
-      height: 50,
-      width: 50,
-      child: RawMaterialButton(
-          onPressed: () {},
-          elevation: 2.0,
-          fillColor: Colors.white,
-          child: const FaIcon(
-            FontAwesomeIcons.facebook,
-            color: Colors.blue,
-            size: 35.0,
-          ),
-          padding: const EdgeInsets.all(5.0),
-          shape: const RoundedRectangleBorder(
-              borderRadius: BorderRadius.all(Radius.circular(50)))),
-    );
-  }
-
-  Widget instagramSignIn() {
-    return SizedBox(
-      height: 50,
-      width: 50,
-      child: RawMaterialButton(
-          onPressed: () {},
-          elevation: 2.0,
-          fillColor: Colors.white,
-          child: FaIcon(
-            FontAwesomeIcons.instagram,
-            color: Colors.pink.shade400,
-            size: 35.0,
-          ),
-          padding: const EdgeInsets.all(5.0),
-          shape: const RoundedRectangleBorder(
-              borderRadius: BorderRadius.all(Radius.circular(50)))),
     );
   }
 
@@ -104,22 +73,6 @@ class _LoginPageState extends State<LoginPage> {
               fontWeight: FontWeight.w900),
         ),
       ),
-    );
-  }
-
-  Widget buildQuestBtn() {
-    return GestureDetector(
-      onTap: () {
-        Navigator.push(
-            context, MaterialPageRoute(builder: (context) => const HomePage()));
-      },
-      child: RichText(
-          text: const TextSpan(children: [
-        TextSpan(
-            text: ' Continue as guest',
-            style: TextStyle(
-                color: Colors.white, fontSize: 20, fontWeight: FontWeight.w900))
-      ])),
     );
   }
 
@@ -153,7 +106,6 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        
         resizeToAvoidBottomInset: false,
         body: AnnotatedRegion<SystemUiOverlayStyle>(
           value: SystemUiOverlayStyle.light,
@@ -174,21 +126,13 @@ class _LoginPageState extends State<LoginPage> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    const SizedBox(height: 200),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: [
-                        googleSignIn(),
-                        facebookSignIn(),
-                        instagramSignIn(),
-                      ],
-                    ),
+                    const SizedBox(height: 275),
+                    googleSignIn(),
                     const SizedBox(height: 20),
                     buildLoginBtn(),
                     const SizedBox(height: 20),
                     buildCreateBtn(),
                     const SizedBox(height: 20),
-                    buildQuestBtn(),
                   ],
                 ),
               ),
@@ -197,3 +141,5 @@ class _LoginPageState extends State<LoginPage> {
         ));
   }
 }
+
+

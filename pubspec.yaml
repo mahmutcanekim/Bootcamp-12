@@ -43,12 +43,15 @@ dependencies:
   flutter_facebook_auth: ^4.3.4
   animated_splash_screen: ^1.2.0
   smooth_page_indicator: ^1.0.0+2
+  shared_preferences: ^2.0.15
+  get: ^4.6.5
 
 
   #icon of google
   font_awesome_flutter: ^10.1.0
   #State Management
   provider: ^6.0.2
+ 
 
 dev_dependencies:
   flutter_test:
@@ -74,13 +77,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-     - assets/images/refika_logo.png
-     - assets/images/community_maps.png
-     - assets/images/custom_matches.png
-     - assets/images/activities.png
-     - assets/images/login_page.png
-     - assets/images/refika_logo_mavi.png
-     - assets/images/login_page_sky.png
+     - assets/images/
      
      
   #   - images/a_dot_ham.jpeg

@@ -31,6 +31,3 @@ class AuthService {
     return user.user;
   }
 }
-
-
-

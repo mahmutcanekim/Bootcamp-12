@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'login_page.dart';
 
-class CommunityPage extends StatefulWidget {
-  const CommunityPage({Key? key}) : super(key: key);
+class OnboardingPage extends StatefulWidget {
+  const OnboardingPage({Key? key}) : super(key: key);
 
   @override
-  _CommunityPageState createState() => _CommunityPageState();
+  _OnboardingPageState createState() => _OnboardingPageState();
 }
 
-class _CommunityPageState extends State<CommunityPage> {
+class _OnboardingPageState extends State<OnboardingPage> {
   final controller = PageController();
   bool isLastPage = false;
 
