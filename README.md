@@ -59,6 +59,12 @@ User Story'ler product backlog'un içerisine eklenemiştir:
 
 **İkinci Sprintte Tamamladığımız Puan**: 73 puan
 
+**Üçüncü Sprintte Tamamladığımız Puan** : 19 Puan
+
+**Tüm Sprintlerde Tamamlanan Puan** : 119 puan 
+
+--eksik kalan 100 puan vardır. Bu özellikler BootCamp'den sonra tamamlanmaya çalışılacaktır.
+
 
 
 **Tahmin mantığı:** Asana Product Backlog'da puanlama kriterleri detaylı olarak belirtilmiştir.https://app.asana.com/0/1202248589829836/board 
